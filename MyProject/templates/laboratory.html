@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>Laboratory List</title>
+  </head>
+  <body>
+    <header>
+        <nav class="section__container nav__container">
+          <div class="nav__logo" style="width: 230px; height: 150px;">
+            <img class = "p_logo" src="{% static 'logo.png' %}" alt="HealthCare Logo" >
+        </div>
+          <ul class="nav__links">
+            <li class="link"><a href="/">Home</a></li>  
+          <li class="link"><a href="/about_us">About Us</a></li>
+          <li class="link"><a href="/services">Services</a></li>
+          <li class="link"><a href="/emergency">Emergency</a></li>
+          <li class="link"><a href="/patient_registration">Patient Registration</a></li>
+          <li class="link"><a href="/doctor_registration">Doctor Registration</a></li>
+          {% comment %} <li class="link"><a href="/login">Login</a></li> {% endcomment %}
+          </ul>
+        </nav>
+    </header>
+    <div class="lab-list" id="labsList"></div>
+    <h1>Diagnostic Ceters Details</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Contact</th>
+            {% comment %} <th>Location</th> {% endcomment %}
+        </tr>
+        {% for labs_data in laboratory %}
+        <tr>
+            <td>{{ labs_data.ID }}</td>
+            <td>{{ labs_data.Name }}</td>
+            <td>{{ labs_data.Address }}</td>
+            <td>{{ labs_data.Contact }}</td>
+            {% comment %} <td>{{ labs.Location }}</td> {% endcomment %}
+        </tr>
+        {% endfor %}
+    </table>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>Health<span>Care</span></h3>
+          <p>
+            We are honored to be a part of your healthcare journey and committed
+            to delivering compassionate, personalized, and top-notch care every
+            step of the way.
+          </p>
+          <p>
+            Trust us with your health, and let us work together to achieve the
+            best possible outcomes for you and your loved ones.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Work With Us</p>
+          <p>Terms & Conditions</p>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <p>Search Terms</p>
+          <p>Advance Search</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <p>
+            <i class="ri-map-pin-2-fill"></i> 123, Dhanori, Pune
+          </p>
+          <p><i class="ri-mail-fill"></i> support@care.com</p>
+          <p><i class="ri-phone-fill"></i> (+91) 34561 78999</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <div class="footer__bar__content">
+          <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+          <div class="footer__socials">
+            <span><i class="ri-instagram-line"></i></span>
+            <span><i class="ri-facebook-fill"></i></span>
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-twitter-fill"></i></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+    
+    
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.0/xlsx.full.min.js"></script>
+    <script>
+      // Function to fetch and display hospital data from the XLSX file
+      async function displayHospitalList() {
+        try {
+          const response = await fetch('hospitals.xlsx');
+          const blob = await response.blob();
+          const reader = new FileReader();
+          reader.onload = function(event) {
+            const data = new Uint8Array(event.target.result);
+            const workbook = XLSX.read(data, { type: 'array' });
+            const sheetName = workbook.SheetNames[0]; // Assuming data is in the first sheet
+            const hospitalData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
+
+            // Display the hospital list
+            const hospitalListElement = document.getElementById('hospitalList');
+            hospitalListElement.innerHTML = '<h2>List of Hospitals</h2><ul>';
+            hospitalData.forEach(hospital => {
+              hospitalListElement.innerHTML += `<li>
+                <strong>${hospital['S No']}</strong><br>
+                <strong>Name:</strong> ${hospital.Name}<br>
+                <strong>Address:</strong> ${hospital.Address}<br>
+                <strong>City:</strong> ${hospital.City}<br>
+                <strong>State:</strong> ${hospital.State}<br>
+                <strong>Pincode:</strong> ${hospital.Pincode}
+              </li>`;
+            });
+            hospitalListElement.innerHTML += '</ul>';
+          };
+          reader.readAsArrayBuffer(blob);
+        } catch (error) {
+          console.error('Error fetching or parsing hospital data:', error);
+        }
+      }
+
+      // Call the function to display hospital list when the page loads
+      window.addEventListener('load', displayHospitalList);
+    </script> -->
+
+    </body>
+</html>

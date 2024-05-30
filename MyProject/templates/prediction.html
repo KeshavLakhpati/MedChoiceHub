@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{% static 'styles.css' %}">
+<title>Symptoms Checker</title>
+<style>
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-top: 20px;
+  }
+
+  .symptoms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+
+  .symptoms-grid input[type="checkbox"] {
+    display: none;
+  }
+
+  .symptoms-grid label {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .symptoms-grid label:hover {
+    background-color: #f0f0f0;
+  }
+
+  .symptoms-grid input[type="checkbox"]:checked + label {
+    background-color: #3399ff;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+    <header>
+        <nav class="section__container nav__container">
+            <div class="nav__logo" style="width: 230px; height: 150px;">
+              <img class = "p_logo" src="{% static 'logo.png' %}" alt="HealthCare Logo" >
+          </div>
+          <ul class="nav__links">
+            <li class="link"><a href="/" style="color: #333;">Home</a></li>  
+            <li class="link"><a href="/about_us" style="color: #333;">About Us</a></li>
+            <li class="link"><a href="/services" style="color: #333;">Services</a></li>
+            <li class="link"><a href="/emergency" style="color: #333;">Emergency</a></li>
+            <li class="link"><a href="/patient_registration" style="color: #333;">Patient Registration</a></li>
+            <li class="link"><a href="/doctor_registration" style="color: #333;">Doctor Registration</a></li>
+            {% comment %} <li class="link"><a href="/login" style="color: #333;">Login</a></li> {% endcomment %}
+          </ul>
+        </nav>
+      </header>
+
+<div class="container" style="max-width: 800px; margin: 0 auto; padding: 20px;">
+  <h2 style="text-align: center;">Symptoms Checker</h2>
+    <form method="post">
+    <form id="symptomsForm">
+      {% csrf_token %}
+        <div class="form-group">
+            <label for="symptoms">Select Symptoms:</label>
+            <div class="symptoms-grid">
+                <input type="checkbox" id="abdominalPain" name="symptoms[]" value="Abdominal Pain">
+                <label for="abdominalPain">Abdominal Pain</label>
+
+                <input type="checkbox" id="acidity" name="symptoms[]" value="Acidity">
+                <label for="acidity">Acidity</label>
+
+                <input type="checkbox" id="acuteLiverFailure" name="symptoms[]" value="Acute Liver Failure">
+                <label for="acuteLiverFailure">Acute Liver Failure</label>
+
+                <input type="checkbox" id="alteredSensorium" name="symptoms[]" value="Altered Sensorium">
+                <label for="alteredSensorium">Altered Sensorium</label>
+
+                <input type="checkbox" id="anxiety" name="symptoms[]" value="Anxiety">
+                <label for="anxiety">Anxiety</label>
+
+                <input type="checkbox" id="backPain" name="symptoms[]" value="Back Pain">
+                <label for="backPain">Back Pain</label>
+
+                <input type="checkbox" id="bellyPain" name="symptoms[]" value="Belly Pain">
+                <label for="bellyPain">Belly Pain</label>
+
+                <input type="checkbox" id="blackheads" name="symptoms[]" value="Blackheads">
+                <label for="blackheads">Blackheads</label>
+
+                <input type="checkbox" id="blister" name="symptoms[]" value="Blister">
+                <label for="blister">Blister</label>
+
+                <input type="checkbox" id="bloodyStool" name="symptoms[]" value="Bloody Stool">
+                <label for="bloodyStool">Bloody Stool</label>
+
+                <input type="checkbox" id="blurredAndDistortedVision" name="symptoms[]" value="Blurred And Distorted Vision">
+                <label for="blurredAndDistortedVision">Blurred And Distorted Vision</label>
+
+                <input type="checkbox" id="brittleNails" name="symptoms[]" value="Brittle Nails">
+                <label for="brittleNails">Brittle Nails</label>
+
+                <input type="checkbox" id="bruising" name="symptoms[]" value="Bruising">
+                <label for="bruising">Bruising</label>
+
+                <input type="checkbox" id="burningMicturition" name="symptoms[]" value="Burning Micturition">
+                <label for="burningMicturition">Burning Micturition</label>
+
+                <input type="checkbox" id="chills" name="symptoms[]" value="Chills">
+                <label for="chills">Chills</label>
+
+                <input type="checkbox" id="chestPain" name="symptoms[]" value="Chest Pain">
+                <label for="chestPain">Chest Pain</label>
+
+                <input type="checkbox" id="coldHandsAndFeets" name="symptoms[]" value="Cold Hands And Feets">
+                <label for="coldHandsAndFeets">Cold Hands And Feets</label>
+
+                <input type="checkbox" id="coma" name="symptoms[]" value="Coma">
+                <label for="coma">Coma</label>
+
+                <input type="checkbox" id="congestion" name="symptoms[]" value="Congestion">
+                <label for="congestion">Congestion</label>
+
+                <input type="checkbox" id="continuousFeelOfUrine" name="symptoms[]" value="Continuous Feel Of Urine">
+                <label for="continuousFeelOfUrine">Continuous Feel Of Urine</label>
+
+                <input type="checkbox" id="continuousSneezing" name="symptoms[]" value="Continuous Sneezing">
+                <label for="continuousSneezing">Continuous Sneezing</label>
+
+                <input type="checkbox" id="cough" name="symptoms[]" value="Cough">
+                <label for="cough">Cough</label>
+
+                <input type="checkbox" id="cramps" name="symptoms[]" value="Cramps">
+                <label for="cramps">Cramps</label>
+
+                <input type="checkbox" id="darkUrine" name="symptoms[]" value="Dark Urine">
+                <label for="darkUrine">Dark Urine</label>
+
+                <input type="checkbox" id="depression" name="symptoms[]" value="Depression">
+                <label for="depression">Depression</label>
+
+                <input type="checkbox" id="diarrhoea" name="symptoms[]" value="Diarrhoea">
+                <label for="diarrhoea">Diarrhoea</label>
+
+                <input type="checkbox" id="dischromicPatches" name="symptoms[]" value="Dischromic Patches">
+                <label for="dischromicPatches">Dischromic Patches</label>
+
+                <input type="checkbox" id="distentionOfAbdomen" name="symptoms[]" value="Distention Of Abdomen">
+                <label for="distentionOfAbdomen">Distention Of Abdomen</label>
+
+                <input type="checkbox" id="disturbancesInVisual" name="symptoms[]" value="Disturbances In Visual">
+                <label for="disturbancesInVisual">Disturbances In Visual</label>
+
+                <input type="checkbox" id="dizziness" name="symptoms[]" value="Dizziness">
+                <label for="dizziness">Dizziness</label>
+
+                <input type="checkbox" id="dryingAndTinglingLips" name="symptoms[]" value="Drying And Tingling Lips">
+                <label for="dryingAndTinglingLips">Drying And Tingling Lips</label>
+
+                <input type="checkbox" id="enlargedThyroid" name="symptoms[]" value="Enlarged Thyroid">
+                <label for="enlargedThyroid">Enlarged Thyroid</label>
+
+                <input type="checkbox" id="excessiveHunger" name="symptoms[]" value="Excessive Hunger">
+                <label for="excessiveHunger">Excessive Hunger</label>
+
+                <input type="checkbox" id="extraMaritalContacts" name="symptoms[]" value="Extra Marital Contacts">
+                <label for="extraMaritalContacts">Extra Marital Contacts</label>
+
+                <input type="checkbox" id="familyHistory" name="symptoms[]" value="Family History">
+                <label for="familyHistory">Family History</label>
+
+                <input type="checkbox" id="fastHeartRate" name="symptoms[]" value="Fast Heart Rate">
+                <label for="fastHeartRate">Fast Heart Rate</label>
+
+                <input type="checkbox" id="fatigue" name="symptoms[]" value="Fatigue">
+                <label for="fatigue">Fatigue</label>
+
+                <input type="checkbox" id="fluidOverload" name="symptoms[]" value="Fluid Overload">
+                <label for="fluidOverload">Fluid Overload</label>
+
+                <input type="checkbox" id="foulSmellOfUrine" name="symptoms[]" value="Foul Smell Of Urine">
+                <label for="foulSmellOfUrine">Foul Smell Of Urine</label>
+
+                <input type="checkbox" id="headache" name="symptoms[]" value="Headache">
+                <label for="headache">Headache</label>
+
+                <input type="checkbox" id="highFever" name="symptoms[]" value="High Fever">
+                <label for="highFever">High Fever</label>
+
+                <input type="checkbox" id="hipJointPain" name="symptoms[]" value="Hip Joint Pain">
+                <label for="hipJointPain">Hip Joint Pain</label>
+
+                <input type="checkbox" id="historyOfAlcoholConsumption" name="symptoms[]" value="History Of Alcohol Consumption">
+                <label for="historyOfAlcoholConsumption">History Of Alcohol Consumption</label>
+
+                <input type="checkbox" id="irritability" name="symptoms[]" value="Irritability">
+                <label for="irritability">Irritability</label>
+
+                <input type="checkbox" id="irritationInAnus" name="symptoms[]" value="Irritation In Anus">
+                <label for="irritationInAnus">Irritation In Anus</label>
+
+                <input type="checkbox" id="irregularSugarLevel" name="symptoms[]" value="Irregular Sugar Level">
+                <label for="irregularSugarLevel">Irregular Sugar Level</label>
+
+                <input type="checkbox" id="itching" name="symptoms[]" value="Itching">
+                <label for="itching">Itching</label>
+
+                <input type="checkbox" id="jointPain" name="symptoms[]" value="Joint Pain">
+                <label for="jointPain">Joint Pain</label>
+
+                <input type="checkbox" id="kneePain" name="symptoms[]" value="Knee Pain">
+                <label for="kneePain">Knee Pain</label>
+
+                <input type="checkbox" id="lackOfConcentration" name="symptoms[]" value="Lack Of Concentration">
+                <label for="lackOfConcentration">Lack Of Concentration</label>
+
+                <input type="checkbox" id="lethargy" name="symptoms[]" value="Lethargy">
+                <label for="lethargy">Lethargy</label>
+
+                <input type="checkbox" id="lossOfAppetite" name="symptoms[]" value="Loss Of Appetite">
+                <label for="lossOfAppetite">Loss Of Appetite</label>
+
+                <input type="checkbox" id="lossOfBalance" name="symptoms[]" value="Loss Of Balance">
+                <label for="lossOfBalance">Loss Of Balance</label>
+
+                <input type="checkbox" id="lossOfSmell" name="symptoms[]" value="Loss Of Smell">
+                <label for="lossOfSmell">Loss Of Smell</label>
+
+                <input type="checkbox" id="lymphNodeEnlargement" name="symptoms[]" value="Lymph Node Enlargement">
+                <label for="lymphNodeEnlargement">Lymph Node Enlargement</label>
+
+                <input type="checkbox" id="malaise" name="symptoms[]" value="Malaise">
+                <label for="malaise">Malaise</label>
+
+                <input type="checkbox" id="movementStiffness" name="symptoms[]" value="Movement Stiffness">
+                <label for="movementStiffness">Movement Stiffness</label>
+
+                <input type="checkbox" id="mucoidSputum" name="symptoms[]" value="Mucoid Sputum">
+                <label for="mucoidSputum">Mucoid Sputum</label>
+
+                <input type="checkbox" id="moodSwings" name="symptoms[]" value="Mood Swings">
+                <label for="moodSwings">Mood Swings</label>
+
+                <input type="checkbox" id="musclePain" name="symptoms[]" value="Muscle Pain">
+                <label for="musclePain">Muscle Pain</label>
+
+                <input type="checkbox" id="muscleWasting" name="symptoms[]" value="Muscle Wasting">
+                <label for="muscleWasting">Muscle Wasting</label>
+
+                <input type="checkbox" id="muscleWeakness" name="symptoms[]" value="Muscle Weakness">
+                <label for="muscleWeakness">Muscle Weakness</label>
+
+                <input type="checkbox" id="nausea" name="symptoms[]" value="Nausea">
+                <label for="nausea">Nausea</label>
+
+                <input type="checkbox" id="neckPain" name="symptoms[]" value="Neck Pain">
+                <label for="neckPain">Neck Pain</label>
+
+                <input type="checkbox" id="nodalSkinEruptions" name="symptoms[]" value="Nodal Skin Eruptions">
+                <label for="nodalSkinEruptions">Nodal Skin Eruptions</label>
+
+                <input type="checkbox" id="obesity" name="symptoms[]" value="Obesity">
+                <label for="obesity">Obesity</label>
+
+                <input type="checkbox" id="palpitations" name="symptoms[]" value="Palpitations">
+                <label for="palpitations">Palpitations</label>
+
+                <input type="checkbox" id="painBehindTheEyes" name="symptoms[]" value="Pain Behind The Eyes">
+                <label for="painBehindTheEyes">Pain Behind The Eyes</label>
+
+                <input type="checkbox" id="painDuringBowelMovements" name="symptoms[]" value="Pain During Bowel Movements">
+                <label for="painDuringBowelMovements">Pain During Bowel Movements</label>
+
+                <input type="checkbox" id="painInAnalRegion" name="symptoms[]" value="Pain In Anal Region">
+                <label for="painInAnalRegion">Pain In Anal Region</label>
+
+                <input type="checkbox" id="painfulWalking" name="symptoms[]" value="Painful Walking">
+                <label for="painfulWalking">Painful Walking</label>
+
+                <input type="checkbox" id="passageOfGases" name="symptoms[]" value="Passage Of Gases">
+                <label for="passageOfGases">Passage Of Gases</label>
+
+                <input type="checkbox" id="phlegm" name="symptoms[]" value="Phlegm">
+                <label for="phlegm">Phlegm</label>
+
+                <input type="checkbox" id="polyuria" name="symptoms[]" value="Polyuria">
+                <label for="polyuria">Polyuria</label>
+
+                <input type="checkbox" id="puffyFaceAndEyes" name="symptoms[]" value="Puffy Face And Eyes">
+                <label for="puffyFaceAndEyes">Puffy Face And Eyes</label>
+
+                <input type="checkbox" id="pusFilledPimples" name="symptoms[]" value="Pus Filled Pimples">
+                <label for="pusFilledPimples">Pus Filled Pimples</label>
+
+                <input type="checkbox" id="redSoreAroundNose" name="symptoms[]" value="Red Sore Around Nose">
+                <label for="redSoreAroundNose">Red Sore Around Nose</label>
+
+                <input type="checkbox" id="redSpotsOverBody" name="symptoms[]" value="Red Spots Over Body">
+                <label for="redSpotsOverBody">Red Spots Over Body</label>
+
+                <input type="checkbox" id="receivingBloodTransfusion" name="symptoms[]" value="Receiving Blood Transfusion">
+                <label for="receivingBloodTransfusion">Receiving Blood Transfusion</label>
+
+                <input type="checkbox" id="receivingUnsterileInjections" name="symptoms[]" value="Receiving Unsterile Injections">
+                <label for="receivingUnsterileInjections">Receiving Unsterile Injections</label>
+
+                <input type="checkbox" id="restlessness" name="symptoms[]" value="Restlessness">
+                <label for="restlessness">Restlessness</label>
+
+                <input type="checkbox" id="rustySputum" name="symptoms[]" value="Rusty Sputum">
+                <label for="rustySputum">Rusty Sputum</label>
+
+                <input type="checkbox" id="runnyNose" name="symptoms[]" value="Runny Nose">
+                <label for="runnyNose">Runny Nose</label>
+
+                <input type="checkbox" id="scarring" name="symptoms[]" value="Scarring">
+                <label for="scarring">Scarring</label>
+
+                <input type="checkbox" id="shivering" name="symptoms[]" value="Shivering">
+                <label for="shivering">Shivering</label>
+
+                <input type="checkbox" id="silverLikeDusting" name="symptoms[]" value="Silver Like Dusting">
+                <label for="silverLikeDusting">Silver Like Dusting</label>
+
+                <input type="checkbox" id="sinusPressure" name="symptoms[]" value="Sinus Pressure">
+                <label for="sinusPressure">Sinus Pressure</label>
+
+                <input type="checkbox" id="skinPeeling" name="symptoms[]" value="Skin Peeling">
+                <label for="skinPeeling">Skin Peeling</label>
+
+                <input type="checkbox" id="skinRash" name="symptoms[]" value="Skin Rash">
+                <label for="skinRash">Skin Rash</label>
+
+                <input type="checkbox" id="smallDentsInNails" name="symptoms[]" value="Small Dents In Nails">
+                <label for="smallDentsInNails">Small Dents In Nails</label>
+
+                <input type="checkbox" id="spinningMovements" name="symptoms[]" value="Spinning Movements">
+                <label for="spinningMovements">Spinning Movements</label>
+
+                <input type="checkbox" id="spottingUrination" name="symptoms[]" value="Spotting Urination">
+                <label for="spottingUrination">Spotting Urination</label>
+
+                <input type="checkbox" id="stiffNeck" name="symptoms[]" value="Stiff Neck">
+                <label for="stiffNeck">Stiff Neck</label>
+
+                <input type="checkbox" id="stomachBleeding" name="symptoms[]" value="Stomach Bleeding">
+                <label for="stomachBleeding">Stomach Bleeding</label>
+
+                <input type="checkbox" id="stomachPain" name="symptoms[]" value="Stomach Pain">
+                <label for="stomachPain">Stomach Pain</label>
+
+                <input type="checkbox" id="swellingJoints" name="symptoms[]" value="Swelling Joints">
+                <label for="swellingJoints">Swelling Joints</label>
+
+                <input type="checkbox" id="swellingOfStomach" name="symptoms[]" value="Swelling Of Stomach">
+                <label for="swellingOfStomach">Swelling Of Stomach</label>
+
+                <input type="checkbox" id="swollenBloodVessels" name="symptoms[]" value="Swollen Blood Vessels">
+                <label for="swollenBloodVessels">Swollen Blood Vessels</label>
+
+                <input type="checkbox" id="swollenExtremities" name="symptoms[]" value="Swollen Extremities">
+                <label for="swollenExtremities">Swollen Extremities</label>
+
+                <input type="checkbox" id="swollenLegs" name="symptoms[]" value="Swollen Legs">
+                <label for="swollenLegs">Swollen Legs</label>
+
+                <input type="checkbox" id="swelledLymphNodes" name="symptoms[]" value="Swelled Lymph Nodes">
+                <label for="swelledLymphNodes">Swelled Lymph Nodes</label>
+
+                <input type="checkbox" id="throatIrritation" name="symptoms[]" value="Throat Irritation">
+                <label for="throatIrritation">Throat Irritation</label>
+
+                <input type="checkbox" id="toxicLook" name="symptoms[]" value="Toxic Look (Typhos)">
+                <label for="toxicLook">Toxic Look (Typhos)</label>
+
+                <input type="checkbox" id="unsteadiness" name="symptoms[]" value="Unsteadiness">
+                <label for="unsteadiness">Unsteadiness</label>
+
+                <input type="checkbox" id="ulcersOnTongue" name="symptoms[]" value="Ulcers On Tongue">
+                <label for="ulcersOnTongue">Ulcers On Tongue</label>
+
+                <input type="checkbox" id="visualDisturbances" name="symptoms[]" value="Visual Disturbances">
+                <label for="visualDisturbances">Visual Disturbances</label>
+
+                <input type="checkbox" id="vomiting" name="symptoms[]" value="Vomiting">
+                <label for="vomiting">Vomiting</label>
+
+                <input type="checkbox" id="wateringFromEyes" name="symptoms[]" value="Watering From Eyes">
+                <label for="wateringFromEyes">Watering From Eyes</label>
+
+                <input type="checkbox" id="weaknessInLimbs" name="symptoms[]" value="Weakness In Limbs">
+                <label for="weaknessInLimbs">Weakness In Limbs</label>
+
+                <input type="checkbox" id="weaknessOfOneBodySide" name="symptoms[]" value="Weakness Of One Body Side">
+                <label for="weaknessOfOneBodySide">Weakness Of One Body Side</label>
+
+                <input type="checkbox" id="weightGain" name="symptoms[]" value="Weight Gain">
+                <label for="weightGain">Weight Gain</label>
+
+                <input type="checkbox" id="weightLoss" name="symptoms[]" value="Weight Loss">
+                <label for="weightLoss">Weight Loss</label>
+
+                <input type="checkbox" id="yellowCrustOoze" name="symptoms[]" value="Yellow Crust Ooze">
+                <label for="yellowCrustOoze">Yellow Crust Ooze</label>
+
+                <input type="checkbox" id="yellowUrine" name="symptoms[]" value="Yellow Urine">
+                <label for="yellowUrine">Yellow Urine</label>
+
+                <input type="checkbox" id="yellowingOfEyes" name="symptoms[]" value="Yellowing Of Eyes">
+                <label for="yellowingOfEyes">Yellowing Of Eyes</label>
+
+                <input type="checkbox" id="yellowishSkin" name="symptoms[]" value="Yellowish Skin">
+                <label for="yellowishSkin">Yellowish Skin</label>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="selectedSymptoms">Selected Symptoms:</label>
+            <input type="text" id="selectedSymptoms" name="selectedSymptoms" readonly>
+        </div>
+        {% comment %} <div class="form-group">
+            <label for="disease">Your disease is:  </label>
+            <input type="text" id="disease" name="disease"  readonly>
+        </div> {% endcomment %}
+        <div class="form-group">
+            <input type="submit" value="Check">
+        </div>
+    </form>
+    {% if disease %}
+    <div class="result">
+        <p>Your disease is: {{ disease }}</p>
+    </div>
+    <script>
+      // Redirect to doctors.html after 3 seconds (3000 milliseconds)
+      setTimeout(function() {
+          window.location.href = "doctors.html";
+      }, 3000);
+  </script>
+    {% endif %}
+</div>
+<script>
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    const selectedSymptomsInput = document.getElementById('selectedSymptoms');
+
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const selectedSymptoms = Array.from(checkboxes)
+                .filter(checkbox => checkbox.checked)
+                .map(checkbox => checkbox.value)
+                .join(',');
+            selectedSymptomsInput.value = selectedSymptoms;
+        });
+    });
+</script>
+
+<footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <h3>Health<span>Care</span></h3>
+        <p>
+          We are honored to be a part of your healthcare journey and committed
+          to delivering compassionate, personalized, and top-notch care every
+          step of the way.
+        </p>
+        <p>
+          Trust us with your health, and let us work together to achieve the
+          best possible outcomes for you and your loved ones.
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>About Us</h4>
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Work With Us</p>
+        <p>Terms & Conditions</p>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <p>Search Terms</p>
+        <p>Advance Search</p>
+        <p>Privacy Policy</p>
+      </div>
+      <div class="footer__col">
+        <h4>Contact Us</h4>
+        <p>
+          <i class="ri-map-pin-2-fill"></i> 123, Dhanori, Pune
+        </p>
+        <p><i class="ri-mail-fill"></i> support@care.com</p>
+        <p><i class="ri-phone-fill"></i> (+91) 34561 78999</p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="footer__bar__content">
+        <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+        <div class="footer__socials">
+          <span><i class="ri-instagram-line"></i></span>
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-heart-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

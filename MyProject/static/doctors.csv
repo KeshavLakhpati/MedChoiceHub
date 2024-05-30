@@ -1,0 +1,1001 @@
+ID,Name,Qualification,Specialization,Contact,Address,Locality,Rating
+1,Avani Rajput,JD ,Endocrinologist,987654321,"Pune, Maharashtra",Kalyani Nagar,2
+2,prasad majanwar,PsyD ,Anesthesiology,987654322,"Pune, Maharashtra",Wakad,5
+3,Arjun Patel,DNP ,Obstetrics/Gynecology,987654323,"Pune, Maharashtra",Bund Garden,3
+4,Bhavya Shah,MD-PhD,Cardiovascular/Thoracic Surgery,987654324,"Pune, Maharashtra",Deccan Gymkhana,1
+5,Chetan Singh,DMD ,General Internal Medicine,987654325,"Pune, Maharashtra",Kondhwa,1
+6,Aditi Das,MD-PhD,Neurosurgery,987654326,"Pune, Maharashtra",Kharadi,2
+7,Ananya Mishra,DO ,Otolaryngologist,987654327,"Pune, Maharashtra",Hadapsar,2
+8,Avani Rajput,EdD ,Respirology,987654328,"Pune, Maharashtra",Theur,5
+9,Chetan Singh,EdD ,Family Medicine,987654329,"Pune, Maharashtra",Pune Satara Road,4
+10,Aarav Agarwal,PharmD ,Hematology,9876543210,"Pune, Maharashtra",Koregaon Park,1
+11,Bhavya Shah,MBBS ,Medical Biochemistry,9876543211,"Pune, Maharashtra",Magarpatta,1
+12,Daksh Tiwari,PharmD ,Nephrology,9876543212,"Pune, Maharashtra",Magarpatta,3
+13,Ananya Mishra,MBBS ,Anesthesiology,9876543213,"Pune, Maharashtra",Fatima Nagar,2
+14,Avani Rajput,BDS ,Medical Oncology,9876543214,"Pune, Maharashtra",Pimple Nilach,2
+15,Akshay Kumar,JD ,Psychiatry,9876543215,"Pune, Maharashtra",Baner,3
+16,Avani Rajput,DC ,Dermatologist,9876543216,"Pune, Maharashtra",Moshi,3
+17,Bhavya Shah,DVM ,Anatomical Pathology,9876543217,"Pune, Maharashtra",Koregaon Park,5
+18,chetan balraje,MBBS ,Anatomical Pathology,9876543218,"Pune, Maharashtra",Kothrud,5
+19,Abhinav Chauhan,PharmD ,Respirology,9876543219,"Pune, Maharashtra",Viman Nagar,4
+20,Bhavya Shah,PharmD ,Gastroenterologist,9876543220,"Pune, Maharashtra",Nigdi,5
+21,Eshaan Yadav,DMD ,Orthopedic Surgery,9876543221,"Pune, Maharashtra",Moshi,2
+22,aryen balpande,PsyD ,Medical Biochemistry,9876543222,"Pune, Maharashtra",Kharadi,5
+23,shubham roy,PsyD ,Diagnostic Radiology,9876543223,"Pune, Maharashtra",Kothrud,5
+24,Avani Rajput,DO ,Critical Care Medicine,9876543224,"Pune, Maharashtra",Kondhwa Khurd,2
+25,Aisha Joshi,MBBS ,Medical Oncology,9876543225,"Pune, Maharashtra",Yerwada,3
+26,Arjun Patel,DVM ,Rheumatologist,9876543226,"Pune, Maharashtra",Camp,3
+27,shubham roy,MD ,Medical Oncology,9876543227,"Pune, Maharashtra",Katraj,4
+28,Bhavya Shah,MD ,Nuclear Medicine,9876543228,"Pune, Maharashtra",Kothrud,4
+29,Advik Gupta,EdD ,Hematology,9876543229,"Pune, Maharashtra",Kharadi,1
+30,Aditya nardaswar,MD-PhD,Gastroenterologist,9876543230,"Pune, Maharashtra",Sahakar Nagar,5
+31,Arjun Patel,PhD ,ENT/general physician,9876543231,"Pune, Maharashtra",Camp,4
+32,Chetan Singh,JD ,Medical Microbiology and Infectious Diseases,9876543232,"Pune, Maharashtra",Hinjewadi,1
+33,Aaradhya Bansal,MBBS ,Family Medicine,9876543233,"Pune, Maharashtra",Wakad Chowk,5
+34,Pranay maheta,PsyD ,Diagnostic Radiology,9876543234,"Pune, Maharashtra",Dhanori,5
+35,Aisha Joshi,MD ,Phlebologist ,9876543235,"Pune, Maharashtra",Viman Nagar,3
+36,Aarav Agarwal,DPT ,Proctologist ,9876543236,"Pune, Maharashtra",Model Colony,2
+37,Ananya Mishra,PharmD ,Emergency Medicine,9876543237,"Pune, Maharashtra",Bund Garden,5
+38,Abhinav Chauhan,EdD ,Dermatologist,9876543238,"Pune, Maharashtra",Nigdi,2
+39,Aisha Joshi,MD ,Obstetrics/Gynecology,9876543239,"Pune, Maharashtra",Pimple Gaurav,3
+40,Ananya Mishra,EdD ,Otolaryngologist,9876543240,"Pune, Maharashtra",Kharadi,3
+41,Pranay maheta,PharmD ,Gastroenterologist,9876543241,"Pune, Maharashtra",Swargate,3
+42,Akshay Kumar,BDS ,Medical Genetics,9876543242,"Pune, Maharashtra",Fatima Nagar,4
+43,Bhavya Shah,DNP ,General Internal Medicine,9876543243,"Pune, Maharashtra",Moshi,5
+44,Abhinav Chauhan,MD-PhD,Medical Genetics,9876543244,"Pune, Maharashtra",Bhosari,5
+45,Eshaan Yadav,PharmD ,Endocrinologist,9876543245,"Pune, Maharashtra",Dhankawadi,2
+46,Chetan Singh,DMD ,Anesthesiology,9876543246,"Pune, Maharashtra",NIBM (Nanded City),5
+47,Abhinav Chauhan,DPT ,General Internal Medicine,9876543247,"Pune, Maharashtra",Viman Nagar,2
+48,Arjun Patel,PharmD ,Nephrology,9876543248,"Pune, Maharashtra",Wakad,3
+49,Aarav Agarwal,MD-PhD,Radiation Oncology,9876543249,"Pune, Maharashtra",Dhankawdi,2
+50,Aditi Das,PharmD ,Critical Care Medicine,9876543250,"Pune, Maharashtra",Bhosari,3
+51,Aarav Agarwal,MD ,Medical Microbiology and Infectious Diseases,9876543251,"Pune, Maharashtra",Mohammadwadi,3
+52,Aarav Agarwal,MD-PhD,Occupational Medicine,9876543252,"Pune, Maharashtra",Nigdi,4
+53,Bhavya Shah,EdD ,Obstetrics/Gynecology,9876543253,"Pune, Maharashtra",Aundh,1
+54,Akshay Kumar,DMD ,Clinical Immunology/Allergy,9876543254,"Pune, Maharashtra",Camp,3
+55,Arjun Patel,MD ,Medical Genetics,9876543255,"Pune, Maharashtra",Katraj,2
+56,Daksh Tiwari,DVM ,Gastroenterologist,9876543256,"Pune, Maharashtra",Theur,1
+57,Chetan Singh,MBBS ,Family Medicine,9876543257,"Pune, Maharashtra",Wakad Chowk,1
+58,Aarav Agarwal,DNP ,Emergency Medicine,9876543258,"Pune, Maharashtra",Kothrud,5
+59,Arjun Patel,PsyD ,Radiation Oncology,9876543259,"Pune, Maharashtra",NIBM (Nanded City),5
+60,Ananya Mishra,MD ,Respirology,9876543260,"Pune, Maharashtra",Kalyani Nagar,4
+61,Chetan Singh,PhD ,Cardiologist,9876543261,"Pune, Maharashtra",Bhosari,2
+62,Aditi Das,DC ,Medical Microbiology and Infectious Diseases,9876543262,"Pune, Maharashtra",Bhosari,1
+63,Deepika Verma,DC ,Anatomical Pathology,9876543263,"Pune, Maharashtra",Pimple Gaurav,1
+64,Ananya Mishra,DO ,Ophthalmology,9876543264,"Pune, Maharashtra",Pimpri-Chinchwad,5
+65,Eshaan Yadav,JD ,Pediatrics,9876543265,"Pune, Maharashtra",Wakad,5
+66,Advik Gupta,PsyD ,Endocrinologist,9876543266,"Pune, Maharashtra",Kharadi,3
+67,Arjun Patel,DVM ,Cardiovascular/Thoracic Surgery,9876543267,"Pune, Maharashtra",Tingale Nagar,4
+68,Avani Rajput,BDS ,Psychiatry,9876543268,"Pune, Maharashtra",Model Colony,2
+69,Avani Rajput,DC ,Proctologist ,9876543269,"Pune, Maharashtra",Warje,2
+70,Aditi Das,MD-PhD,Neurosurgery,9876543270,"Pune, Maharashtra",Deccan Gymkhana,1
+71,Advik Gupta,PsyD ,Phlebologist ,9876543271,"Pune, Maharashtra",Kondhwa,5
+72,Bhavya Shah,MD ,Phlebologist ,9876543272,"Pune, Maharashtra",Viman Nagar,1
+73,Aarav Agarwal,MBBS ,Plastic Surgery,9876543273,"Pune, Maharashtra",Shivaji Nagar,5
+74,Advik Gupta,DVM ,Emergency Medicine,9876543274,"Pune, Maharashtra",Aundh,3
+75,Chetan Singh,MBBS ,Neurologist,9876543275,"Pune, Maharashtra",Mundhwa,5
+76,Chetan Singh,DC ,Phlebologist ,9876543276,"Pune, Maharashtra",Pimple Nilach,3
+77,Arjun Patel,DC ,Neurosurgery,9876543277,"Pune, Maharashtra",Kondhwa,2
+78,Advik Gupta,DC ,Respirology,9876543278,"Pune, Maharashtra",Moshi,2
+79,Aisha Joshi,MD ,General Surgery,9876543279,"Pune, Maharashtra",Bibwewadi,3
+80,Advik Gupta,PhD ,Occupational Medicine,9876543280,"Pune, Maharashtra",Dhankawdi,4
+81,Pranay maheta,DPT ,Plastic Surgery,9876543281,"Pune, Maharashtra",Dhankawadi,3
+82,Deepika Verma,EdD ,Nephrology,9876543282,"Pune, Maharashtra",Camp,3
+83,Aditi Das,DC ,Otolaryngologist,9876543283,"Pune, Maharashtra",Pimpri-Chinchwad,2
+84,Deepika Verma,DPT ,Hematology,9876543284,"Pune, Maharashtra",Dhankawdi,5
+85,Daksh Tiwari,DNP ,Anesthesiology,9876543285,"Pune, Maharashtra",Ganeshwadi,1
+86,Daksh Tiwari,PharmD ,Hematology,9876543286,"Pune, Maharashtra",Lohegaon,4
+87,Aditi Das,PsyD ,Anatomical Pathology,9876543287,"Pune, Maharashtra",Balewadi,1
+88,Aaradhya Bansal,EdD ,Geriatric Medicine,9876543288,"Pune, Maharashtra",Ganeshwadi,3
+89,Bhavya Shah,DNP ,Phlebologist ,9876543289,"Pune, Maharashtra",Kothrud,5
+90,Bhavya Shah,BDS ,Neurologist,9876543290,"Pune, Maharashtra",Firodiya Nagar,3
+91,Deepika Verma,DMD ,ENT/general physician,9876543291,"Pune, Maharashtra",Kondhwa,3
+92,Eshaan Yadav,EdD ,Emergency Medicine,9876543292,"Pune, Maharashtra",Camp,3
+93,Aditi Das,DVM ,Otolaryngologist,9876543293,"Pune, Maharashtra",Hinjewadi,2
+94,Advik Gupta,MD-PhD,Endocrinologist,9876543294,"Pune, Maharashtra",Dhankawadi,5
+95,Bhavya Shah,DPT ,Phlebologist ,9876543295,"Pune, Maharashtra",Wakad Chowk,5
+96,Aisha Joshi,MD ,Psychiatry,9876543296,"Pune, Maharashtra",Kalyani Nagar,4
+97,Aaradhya Bansal,PhD ,Medical Microbiology and Infectious Diseases,9876543297,"Pune, Maharashtra",Kondhwa,1
+98,Avani Rajput,DVM ,Medical Biochemistry,9876543298,"Pune, Maharashtra",Model Colony,5
+99,Daksh Tiwari,DC ,Cardiovascular/Thoracic Surgery,9876543299,"Pune, Maharashtra",Kondhwa Khurd,4
+100,Ananya Mishra,JD ,Medical Genetics,98765432100,"Pune, Maharashtra",NIBM (Nanded City),3
+101,Chetan Singh,PharmD ,Geriatric Medicine,98765432101,"Pune, Maharashtra",Mundhwa,1
+102,Aisha Joshi,MD-PhD,Orthopedic Surgery,98765432102,"Pune, Maharashtra",Yerwada,4
+103,Deepika Verma,DMD ,Otolaryngologist,98765432103,"Pune, Maharashtra",Viman Nagar,4
+104,Aditi Das,BDS ,Pediatrics,98765432104,"Pune, Maharashtra",Pimple Gaurav,1
+105,Aditi Das,DO ,Diagnostic Radiology,98765432105,"Pune, Maharashtra",Kalyani Nagar,3
+106,Abhinav Chauhan,MBBS ,Ophthalmology,98765432106,"Pune, Maharashtra",Deccan Gymkhana,4
+107,Deepika Verma,DNP ,Pediatrics,98765432107,"Pune, Maharashtra",Hadapsar,4
+108,Arjun Patel,MBBS ,Neurosurgery,98765432108,"Pune, Maharashtra",Balewadi,3
+109,Advik Gupta,PharmD ,Family Medicine,98765432109,"Pune, Maharashtra",Sahakar Nagar,2
+110,Avani Rajput,EdD ,Psychiatry,98765432110,"Pune, Maharashtra",Nigdi,4
+111,Aditi Das,PharmD ,Anesthesiology,98765432111,"Pune, Maharashtra",Bund Garden,2
+112,Bhavya Shah,DPT ,Otolaryngologist,98765432112,"Pune, Maharashtra",Ravet,2
+113,Avani Rajput,MD-PhD,Anatomical Pathology,98765432113,"Pune, Maharashtra",Pimpri-Chinchwad,1
+114,Aaradhya Bansal,MD ,Neurologist,98765432114,"Pune, Maharashtra",Ganeshwadi,4
+115,Aarav Agarwal,DNP ,Ophthalmology,98765432115,"Pune, Maharashtra",Balewadi,3
+116,Eshaan Yadav,DO ,Medical Oncology,98765432116,"Pune, Maharashtra",Pimple Nilach,1
+117,Ananya Mishra,JD ,Anesthesiology,98765432117,"Pune, Maharashtra",Bibwewadi,1
+118,Advik Gupta,MD ,Hematology,98765432118,"Pune, Maharashtra",Pimple Gaurav,5
+119,Advik Gupta,DNP ,Medical Microbiology and Infectious Diseases,98765432119,"Pune, Maharashtra",Bibwewadi,3
+120,Deepika Verma,MD-PhD,Medical Oncology,98765432120,"Pune, Maharashtra",Wakad Chowk,5
+121,Abhinav Chauhan,PhD ,Dermatologist,98765432121,"Pune, Maharashtra",Kharadi,4
+122,Chetan Singh,DO ,Endocrinologist,98765432122,"Pune, Maharashtra",Akurdi,5
+123,Bhavya Shah,DNP ,Psychiatry,98765432123,"Pune, Maharashtra",Kondhwa,5
+124,Arjun Patel,DC ,Endocrinologist,98765432124,"Pune, Maharashtra",Fatima Nagar,4
+125,Deepika Verma,DPT ,Radiation Oncology,98765432125,"Pune, Maharashtra",Koregaon Park,5
+126,Aditi Das,DPT ,Dermatologist,98765432126,"Pune, Maharashtra",Hinjewadi,5
+127,Aaradhya Bansal,BDS ,General Surgery,98765432127,"Pune, Maharashtra",Kalyani Nagar,3
+128,Bhavya Shah,MBBS ,Neurosurgery,98765432128,"Pune, Maharashtra",Bhosari,2
+129,Arjun Patel,PsyD ,Geriatric Medicine,98765432129,"Pune, Maharashtra",Kondhwa,4
+130,Eshaan Yadav,DNP ,Dermatologist,98765432130,"Pune, Maharashtra",Wakad Chowk,2
+131,Advik Gupta,DPT ,Otolaryngologist,98765432131,"Pune, Maharashtra",Akurdi,3
+132,Abhinav Chauhan,DPT ,ENT/general physician,98765432132,"Pune, Maharashtra",Kondhwa,1
+133,Pankaj Kumar,MBBS ,ENT/general physician,98765432133,"Pune, Maharashtra",Bhosari,3
+134,Aditi Das,PharmD ,Pediatrics,98765432134,"Pune, Maharashtra",Hinjewadi,5
+135,Aditi Das,DO ,Radiation Oncology,98765432135,"Pune, Maharashtra",Bhosari,1
+136,Avani Rajput,DPT ,Occupational Medicine,98765432136,"Pune, Maharashtra",Balewadi,2
+137,Aaradhya Bansal,DC ,Medical Biochemistry,98765432137,"Pune, Maharashtra",Pimple Nilach,5
+138,Chetan Singh,MD ,Medical Biochemistry,98765432138,"Pune, Maharashtra",Theur,2
+139,Aisha Joshi,DNP ,Cardiologist,98765432139,"Pune, Maharashtra",Camp,4
+140,Chetan Singh,PsyD ,Emergency Medicine,98765432140,"Pune, Maharashtra",Akurdi,5
+141,Daksh Tiwari,DPT ,Medical Genetics,98765432141,"Pune, Maharashtra",Pune Satara Road,5
+142,Akshay Kumar,DMD ,Emergency Medicine,98765432142,"Pune, Maharashtra",NIBM (Nanded City),3
+143,Avani Rajput,PharmD ,Nephrology,98765432143,"Pune, Maharashtra",Wakad Chowk,2
+144,Aaradhya Bansal,MD-PhD,Pediatrics,98765432144,"Pune, Maharashtra",Yerwada,2
+145,Chetan Singh,MBBS ,Radiation Oncology,98765432145,"Pune, Maharashtra",Bavdhan,4
+146,Deepika Verma,DMD ,Neurosurgery,98765432146,"Pune, Maharashtra",Pimple Gaurav,4
+147,Bhavya Shah,PsyD ,Obstetrics/Gynecology,98765432147,"Pune, Maharashtra",Kondhwa,2
+148,Aaradhya Bansal,MBBS ,Proctologist ,98765432148,"Pune, Maharashtra",Shivaji Nagar,1
+149,Aaradhya Bansal,DNP ,Emergency Medicine,98765432149,"Pune, Maharashtra",Lohegaon,1
+150,Daksh Tiwari,DVM ,Clinical Immunology/Allergy,98765432150,"Pune, Maharashtra",Aundh,1
+151,Aaradhya Bansal,DPT ,General Surgery,98765432151,"Pune, Maharashtra",Balewadi,2
+152,Aaradhya Bansal,PharmD ,Diagnostic Radiology,98765432152,"Pune, Maharashtra",Bibwewadi,4
+153,Daksh Tiwari,JD ,General Surgery,98765432153,"Pune, Maharashtra",Hinjewadi,3
+154,Avani Rajput,DPT ,Phlebologist ,98765432154,"Pune, Maharashtra",Shivaji Nagar,2
+155,Aisha Joshi,MD-PhD,Medical Microbiology and Infectious Diseases,98765432155,"Pune, Maharashtra",Nigdi,2
+156,Advik Gupta,MBBS ,Neurosurgery,98765432156,"Pune, Maharashtra",Baner,3
+157,Ananya Mishra,EdD ,General Internal Medicine,98765432157,"Pune, Maharashtra",Viman Nagar,1
+158,Arjun Patel,DNP ,Occupational Medicine,98765432158,"Pune, Maharashtra",Lohegaon,4
+159,Aisha Joshi,MBBS ,Anatomical Pathology,98765432159,"Pune, Maharashtra",Tingale Nagar,5
+160,Deepika Verma,PharmD ,Geriatric Medicine,98765432160,"Pune, Maharashtra",Wakad,4
+161,Ananya Mishra,JD ,Emergency Medicine,98765432161,"Pune, Maharashtra",Sahakar Nagar,2
+162,Daksh Tiwari,DNP ,Radiation Oncology,98765432162,"Pune, Maharashtra",Koregaon Park,4
+163,Aditi Das,EdD ,Critical Care Medicine,98765432163,"Pune, Maharashtra",Pimpri-Chinchwad,5
+164,Chetan Singh,DO ,Occupational Medicine,98765432164,"Pune, Maharashtra",Magarpatta,4
+165,Abhinav Chauhan,DVM ,Cardiovascular/Thoracic Surgery,98765432165,"Pune, Maharashtra",Theur,2
+166,Ananya Mishra,PhD ,Occupational Medicine,98765432166,"Pune, Maharashtra",Dhayari,1
+167,Arjun Patel,BDS ,Emergency Medicine,98765432167,"Pune, Maharashtra",Dhankawadi,5
+168,Daksh Tiwari,DO ,General Surgery,98765432168,"Pune, Maharashtra",Kondhwa,4
+169,Aaradhya Bansal,PharmD ,Pediatrics,98765432169,"Pune, Maharashtra",Firodiya Nagar,5
+170,Aditi Das,DNP ,Emergency Medicine,98765432170,"Pune, Maharashtra",Kharadi,4
+171,Bhavya Shah,JD ,Plastic Surgery,98765432171,"Pune, Maharashtra",Baner,2
+172,Daksh Tiwari,DO ,Radiation Oncology,98765432172,"Pune, Maharashtra",Shivaji Nagar,4
+173,Aarav Agarwal,DVM ,Proctologist ,98765432173,"Pune, Maharashtra",Bavdhan,2
+174,Deepika Verma,EdD ,Nuclear Medicine,98765432174,"Pune, Maharashtra",Swargate,2
+175,Akshay Kumar,DC ,Proctologist ,98765432175,"Pune, Maharashtra",Viman Nagar,4
+176,Daksh Tiwari,EdD ,Plastic Surgery,98765432176,"Pune, Maharashtra",Moshi,4
+177,Avani Rajput,DC ,Ophthalmology,98765432177,"Pune, Maharashtra",Lohegaon,3
+178,Aisha Joshi,BDS ,Ophthalmology,98765432178,"Pune, Maharashtra",Bund Garden,2
+179,Avani Rajput,MBBS ,Medical Biochemistry,98765432179,"Pune, Maharashtra",Swargate,1
+180,Eshaan Yadav,DO ,Hematology,98765432180,"Pune, Maharashtra",Magarpatta,3
+181,Pranay maheta,BDS ,Endocrinologist,98765432181,"Pune, Maharashtra",Pimple Gaurav,2
+182,Chetan Singh,EdD ,Clinical Immunology/Allergy,98765432182,"Pune, Maharashtra",Deccan Gymkhana,4
+183,Avani Rajput,DVM ,Obstetrics/Gynecology,98765432183,"Pune, Maharashtra",Dhankawdi,1
+184,Aaradhya Bansal,DMD ,Diagnostic Radiology,98765432184,"Pune, Maharashtra",Firodiya Nagar,1
+185,Aaradhya Bansal,DO ,General Internal Medicine,98765432185,"Pune, Maharashtra",Nigdi,5
+186,Daksh Tiwari,PharmD ,Dermatologist,98765432186,"Pune, Maharashtra",Bavdhan,5
+187,Aaradhya Bansal,MD-PhD,Neurosurgery,98765432187,"Pune, Maharashtra",Firodiya Nagar,4
+188,Deepika Verma,DO ,Gastroenterologist,98765432188,"Pune, Maharashtra",NIBM (Nanded City),3
+189,Aisha Joshi,DNP ,Emergency Medicine,98765432189,"Pune, Maharashtra",Viman Nagar,5
+190,Daksh Tiwari,DO ,Anesthesiology,98765432190,"Pune, Maharashtra",Warje,2
+191,Daksh Tiwari,PharmD ,Medical Genetics,98765432191,"Pune, Maharashtra",NIBM (Nanded City),5
+192,Daksh Tiwari,BDS ,Plastic Surgery,98765432192,"Pune, Maharashtra",Katraj,2
+193,Bhavya Shah,JD ,Medical Microbiology and Infectious Diseases,98765432193,"Pune, Maharashtra",Model Colony,2
+194,Chetan Singh,DO ,Nephrology,98765432194,"Pune, Maharashtra",Sahakar Nagar,1
+195,Chetan Singh,PsyD ,Hematology,98765432195,"Pune, Maharashtra",Bhosari,3
+196,Aaradhya Bansal,MBBS ,Plastic Surgery,98765432196,"Pune, Maharashtra",Pimpri-Chinchwad,3
+197,Ananya Mishra,MD ,Obstetrics/Gynecology,98765432197,"Pune, Maharashtra",Firodiya Nagar,2
+198,Bhavya Shah,DC ,Geriatric Medicine,98765432198,"Pune, Maharashtra",Pimple Nilach,4
+199,Eshaan Yadav,DO ,Geriatric Medicine,98765432199,"Pune, Maharashtra",Hinjewadi,1
+200,Akshay Kumar,DC ,Pediatrics,98765432200,"Pune, Maharashtra",Katraj,5
+201,Eshaan Yadav,MD ,Proctologist ,98765432201,"Pune, Maharashtra",Yerwada,4
+202,Akshay Kumar,MD ,Medical Microbiology and Infectious Diseases,98765432202,"Pune, Maharashtra",Aundh,3
+203,Eshaan Yadav,MD ,Medical Oncology,98765432203,"Pune, Maharashtra",Pimple Nilach,1
+204,Ananya Mishra,DMD ,Critical Care Medicine,98765432204,"Pune, Maharashtra",Camp,3
+205,Arjun Patel,MD ,Emergency Medicine,98765432205,"Pune, Maharashtra",Balewadi,3
+206,Ananya Mishra,DC ,Hematology,98765432206,"Pune, Maharashtra",Bund Garden,2
+207,Akshay Kumar,DC ,Nuclear Medicine,98765432207,"Pune, Maharashtra",Akurdi,1
+208,Ananya Mishra,DO ,Anesthesiology,98765432208,"Pune, Maharashtra",Bund Garden,5
+209,Bhavya Shah,PsyD ,Pediatrics,98765432209,"Pune, Maharashtra",Wakad Chowk,1
+210,Akshay Kumar,DNP ,Endocrinologist,98765432210,"Pune, Maharashtra",Dhanori,2
+211,Abhinav Chauhan,MD ,Cardiologist,98765432211,"Pune, Maharashtra",Bibwewadi,4
+212,Aditi Das,DMD ,Gastroenterologist,98765432212,"Pune, Maharashtra",Kondhwa Khurd,3
+213,Deepika Verma,PharmD ,Family Medicine,98765432213,"Pune, Maharashtra",Warje,5
+214,Aditi Das,DPT ,ENT/general physician,98765432214,"Pune, Maharashtra",Camp,3
+215,Chetan Singh,PhD ,Medical Biochemistry,98765432215,"Pune, Maharashtra",Dhayari,5
+216,Abhinav Chauhan,DPT ,General Surgery,98765432216,"Pune, Maharashtra",Viman Nagar,5
+217,Ananya Mishra,PhD ,General Surgery,98765432217,"Pune, Maharashtra",Wakad,4
+218,Bhavya Shah,JD ,Dermatologist,98765432218,"Pune, Maharashtra",Firodiya Nagar,3
+219,Abhinav Chauhan,BDS ,Neurologist,98765432219,"Pune, Maharashtra",Fatima Nagar,1
+220,Daksh Tiwari,JD ,Ophthalmology,98765432220,"Pune, Maharashtra",Viman Nagar,4
+221,Advik Gupta,DO ,General Internal Medicine,98765432221,"Pune, Maharashtra",Mundhwa,4
+222,Avani Rajput,MBBS ,Radiation Oncology,98765432222,"Pune, Maharashtra",NIBM (Nanded City),2
+223,Akshay Kumar,PsyD ,Phlebologist ,98765432223,"Pune, Maharashtra",Mundhwa,2
+224,Abhinav Chauhan,DMD ,Nuclear Medicine,98765432224,"Pune, Maharashtra",Mundhwa,2
+225,Bhavya Shah,JD ,ENT/general physician,98765432225,"Pune, Maharashtra",Moshi,2
+226,Aaradhya Bansal,PsyD ,Radiation Oncology,98765432226,"Pune, Maharashtra",Balewadi,2
+227,Aisha Joshi,PsyD ,Medical Genetics,98765432227,"Pune, Maharashtra",Hadapsar,1
+228,Ananya Mishra,DMD ,General Internal Medicine,98765432228,"Pune, Maharashtra",Deccan Gymkhana,1
+229,Aarav Agarwal,DC ,Nephrology,98765432229,"Pune, Maharashtra",Mundhwa,4
+230,Deepika Verma,BDS ,Medical Microbiology and Infectious Diseases,98765432230,"Pune, Maharashtra",Firodiya Nagar,5
+231,Abhinav Chauhan,DO ,Plastic Surgery,98765432231,"Pune, Maharashtra",Lohegaon,2
+232,Deepika Verma,PharmD ,Geriatric Medicine,98765432232,"Pune, Maharashtra",Hadapsar,3
+233,Chetan Singh,PharmD ,Nuclear Medicine,98765432233,"Pune, Maharashtra",Akurdi,1
+234,Avani Rajput,BDS ,Neurosurgery,98765432234,"Pune, Maharashtra",Baner,1
+235,Akshay Kumar,DO ,Endocrinologist,98765432235,"Pune, Maharashtra",Moshi,3
+236,Ananya Mishra,PsyD ,Respirology,98765432236,"Pune, Maharashtra",Kharadi,2
+237,Arjun Patel,DMD ,Respirology,98765432237,"Pune, Maharashtra",Hinjewadi,2
+238,Chetan Singh,JD ,Occupational Medicine,98765432238,"Pune, Maharashtra",Pimpri-Chinchwad,1
+239,Aarav Agarwal,DMD ,Emergency Medicine,98765432239,"Pune, Maharashtra",Dhayari,5
+240,Eshaan Yadav,MBBS ,Cardiologist,98765432240,"Pune, Maharashtra",Balewadi,4
+241,Aarav Agarwal,DPT ,Radiation Oncology,98765432241,"Pune, Maharashtra",Sahakar Nagar,3
+242,Bhavya Shah,BDS ,Endocrinologist,98765432242,"Pune, Maharashtra",Kothrud,2
+243,Ananya Mishra,MBBS ,ENT/general physician,98765432243,"Pune, Maharashtra",Dhankawdi,4
+244,Eshaan Yadav,EdD ,Medical Microbiology and Infectious Diseases,98765432244,"Pune, Maharashtra",Kondhwa Khurd,5
+245,Aditi Das,PsyD ,Clinical Immunology/Allergy,98765432245,"Pune, Maharashtra",Firodiya Nagar,3
+246,Aisha Joshi,DPT ,Ophthalmology,98765432246,"Pune, Maharashtra",Swargate,1
+247,Aditi Das,JD ,Plastic Surgery,98765432247,"Pune, Maharashtra",Mohammadwadi,1
+248,Aarav Agarwal,PsyD ,Nuclear Medicine,98765432248,"Pune, Maharashtra",Aundh,4
+249,Ananya Mishra,PhD ,ENT/general physician,98765432249,"Pune, Maharashtra",Pimple Gaurav,1
+250,Ananya Mishra,DMD ,Medical Microbiology and Infectious Diseases,98765432250,"Pune, Maharashtra",Baner,5
+251,Daksh Tiwari,BDS ,Cardiovascular/Thoracic Surgery,98765432251,"Pune, Maharashtra",Akurdi,4
+252,Aditi Das,PsyD ,Neurologist,98765432252,"Pune, Maharashtra",Wakad,4
+253,Aarav Agarwal,BDS ,Orthopedic Surgery,98765432253,"Pune, Maharashtra",Yerwada,1
+254,Pranay maheta,MBBS ,Cardiovascular/Thoracic Surgery,98765432254,"Pune, Maharashtra",Swargate,5
+255,Aaradhya Bansal,PhD ,Dermatologist,98765432255,"Pune, Maharashtra",Bund Garden,4
+256,Aditi Das,BDS ,Neurologist,98765432256,"Pune, Maharashtra",Kondhwa,5
+257,Aisha Joshi,DNP ,General Internal Medicine,98765432257,"Pune, Maharashtra",Swargate,3
+258,Akshay Kumar,PsyD ,Obstetrics/Gynecology,98765432258,"Pune, Maharashtra",Wakad,4
+259,Bhavya Shah,PharmD ,Diagnostic Radiology,98765432259,"Pune, Maharashtra",Tingale Nagar,5
+260,Advik Gupta,DVM ,General Surgery,98765432260,"Pune, Maharashtra",Pimple Nilach,4
+261,Aarav Agarwal,DNP ,Psychiatry,98765432261,"Pune, Maharashtra",Camp,4
+262,Advik Gupta,PharmD ,Medical Genetics,98765432262,"Pune, Maharashtra",Baner,2
+263,Aisha Joshi,PhD ,Otolaryngologist,98765432263,"Pune, Maharashtra",Mundhwa,5
+264,Aditi Das,DVM ,Critical Care Medicine,98765432264,"Pune, Maharashtra",Koregaon Park,1
+265,Arjun Patel,PharmD ,Respirology,98765432265,"Pune, Maharashtra",Koregaon Park,1
+266,Abhinav Chauhan,DVM ,Anatomical Pathology,98765432266,"Pune, Maharashtra",Model Colony,1
+267,Aditi Das,PsyD ,Radiation Oncology,98765432267,"Pune, Maharashtra",Bhosari,3
+268,Avani Rajput,MBBS ,Neurosurgery,98765432268,"Pune, Maharashtra",Deccan Gymkhana,4
+269,Aaradhya Bansal,PharmD ,Cardiologist,98765432269,"Pune, Maharashtra",Dhayari,5
+270,Akshay Kumar,PhD ,Geriatric Medicine,98765432270,"Pune, Maharashtra",Ravet,3
+271,Chetan Singh,PhD ,Medical Biochemistry,98765432271,"Pune, Maharashtra",Koregaon Park,2
+272,Avani Rajput,MD ,Emergency Medicine,98765432272,"Pune, Maharashtra",Kondhwa,5
+273,Akshay Kumar,EdD ,Nuclear Medicine,98765432273,"Pune, Maharashtra",NIBM (Nanded City),1
+274,Aisha Joshi,DPT ,General Internal Medicine,98765432274,"Pune, Maharashtra",Sahakar Nagar,3
+275,Ananya Mishra,BDS ,Endocrinologist,98765432275,"Pune, Maharashtra",Aundh Road,5
+276,Aisha Joshi,BDS ,General Internal Medicine,98765432276,"Pune, Maharashtra",Moshi,5
+277,Advik Gupta,DO ,Respirology,98765432277,"Pune, Maharashtra",Dhayari,2
+278,Bhavya Shah,PhD ,Psychiatry,98765432278,"Pune, Maharashtra",Kharadi,1
+279,Bhavya Shah,DVM ,Occupational Medicine,98765432279,"Pune, Maharashtra",Balewadi,2
+280,Aarav Agarwal,DO ,Proctologist ,98765432280,"Pune, Maharashtra",Sahakar Nagar,5
+281,Bhavya Shah,MD-PhD,Diagnostic Radiology,98765432281,"Pune, Maharashtra",Ravet,1
+282,Akshay Kumar,PharmD ,Respirology,98765432282,"Pune, Maharashtra",Nigdi,1
+283,Pranay maheta,DMD ,Psychiatry,98765432283,"Pune, Maharashtra",Dhankawdi,1
+284,Akshay Kumar,BDS ,Clinical Immunology/Allergy,98765432284,"Pune, Maharashtra",Kondhwa,3
+285,Bhavya Shah,PharmD ,Cardiologist,98765432285,"Pune, Maharashtra",Wakad,5
+286,Ananya Mishra,DNP ,Family Medicine,98765432286,"Pune, Maharashtra",Kondhwa Khurd,3
+287,Aarav Agarwal,DC ,Proctologist ,98765432287,"Pune, Maharashtra",Hadapsar,5
+288,Aditi Das,PhD ,Diagnostic Radiology,98765432288,"Pune, Maharashtra",Hinjewadi,2
+289,Aaradhya Bansal,DNP ,Critical Care Medicine,98765432289,"Pune, Maharashtra",Nigdi,5
+290,Ananya Mishra,DNP ,General Surgery,98765432290,"Pune, Maharashtra",Bavdhan,4
+291,Avani Rajput,EdD ,Critical Care Medicine,98765432291,"Pune, Maharashtra",Tingale Nagar,2
+292,Arjun Patel,PhD ,Hematology,98765432292,"Pune, Maharashtra",Swargate,4
+293,Aaradhya Bansal,EdD ,Diagnostic Radiology,98765432293,"Pune, Maharashtra",Aundh Road,3
+294,Ananya Mishra,DPT ,Psychiatry,98765432294,"Pune, Maharashtra",Tingale Nagar,1
+295,Advik Gupta,BDS ,Cardiovascular/Thoracic Surgery,98765432295,"Pune, Maharashtra",Yerwada,2
+296,Deepika Verma,PsyD ,Nephrology,98765432296,"Pune, Maharashtra",Wakad,5
+297,Aarav Agarwal,MD-PhD,Proctologist ,98765432297,"Pune, Maharashtra",Kalyani Nagar,4
+298,Aarav Agarwal,MD ,General Surgery,98765432298,"Pune, Maharashtra",Swargate,1
+299,Aisha Joshi,PhD ,Medical Microbiology and Infectious Diseases,98765432299,"Pune, Maharashtra",Model Colony,3
+300,Chetan Singh,EdD ,Hematology,98765432300,"Pune, Maharashtra",NIBM (Nanded City),2
+301,Aarav Agarwal,PsyD ,Nuclear Medicine,98765432301,"Pune, Maharashtra",Hinjewadi,4
+302,Avani Rajput,DC ,General Surgery,98765432302,"Pune, Maharashtra",Dhanori,2
+303,Raj singh,DVM ,Anatomical Pathology,98765432303,"Pune, Maharashtra",Pimpri-Chinchwad,5
+304,Abhinav Chauhan,DMD ,Psychiatry,98765432304,"Pune, Maharashtra",Tingale Nagar,1
+305,Advik Gupta,JD ,Critical Care Medicine,98765432305,"Pune, Maharashtra",NIBM (Nanded City),4
+306,Deepika Verma,PsyD ,Proctologist ,98765432306,"Pune, Maharashtra",NIBM (Nanded City),2
+307,Avani Rajput,JD ,Medical Oncology,98765432307,"Pune, Maharashtra",Ravet,4
+308,Aisha Joshi,EdD ,Nuclear Medicine,98765432308,"Pune, Maharashtra",Koregaon Park,2
+309,Aaradhya Bansal,DVM ,Nuclear Medicine,98765432309,"Pune, Maharashtra",Ravet,4
+310,Aaradhya Bansal,PhD ,Diagnostic Radiology,98765432310,"Pune, Maharashtra",Katraj,3
+311,Bhavya Shah,DPT ,Medical Genetics,98765432311,"Pune, Maharashtra",Nigdi,4
+312,Akshay Kumar,MD-PhD,Clinical Immunology/Allergy,98765432312,"Pune, Maharashtra",Magarpatta,5
+313,Deepika Verma,MD-PhD,Pediatrics,98765432313,"Pune, Maharashtra",Bavdhan,2
+314,Aditi Das,DC ,Critical Care Medicine,98765432314,"Pune, Maharashtra",Aundh,2
+315,Eshaan Yadav,MD ,Nuclear Medicine,98765432315,"Pune, Maharashtra",Bavdhan,5
+316,Bhavya Shah,EdD ,Neurosurgery,98765432316,"Pune, Maharashtra",Wakad Chowk,2
+317,Eshaan Yadav,DO ,Proctologist ,98765432317,"Pune, Maharashtra",Mundhwa,1
+318,Deepika Verma,PharmD ,Gastroenterologist,98765432318,"Pune, Maharashtra",Moshi,2
+319,Advik Gupta,DO ,Clinical Immunology/Allergy,98765432319,"Pune, Maharashtra",Aundh Road,1
+320,Chetan Singh,EdD ,Anatomical Pathology,98765432320,"Pune, Maharashtra",Ravet,3
+321,Deepika Verma,JD ,General Surgery,98765432321,"Pune, Maharashtra",Akurdi,2
+322,Ananya Mishra,MD ,Otolaryngologist,98765432322,"Pune, Maharashtra",Model Colony,3
+323,Deepika Verma,MBBS ,ENT/general physician,98765432323,"Pune, Maharashtra",Baner,4
+324,Aditi Das,DMD ,Anatomical Pathology,98765432324,"Pune, Maharashtra",Hadapsar,2
+325,Deepika Verma,BDS ,General Internal Medicine,98765432325,"Pune, Maharashtra",Akurdi,1
+326,Avani Rajput,DPT ,Geriatric Medicine,98765432326,"Pune, Maharashtra",Camp,2
+327,Bhavya Shah,DMD ,Radiation Oncology,98765432327,"Pune, Maharashtra",Warje,2
+328,Aditi Das,DMD ,Medical Biochemistry,98765432328,"Pune, Maharashtra",Sahakar Nagar,5
+329,Abhinav Chauhan,DMD ,General Surgery,98765432329,"Pune, Maharashtra",Magarpatta,1
+330,Abhinav Chauhan,MD ,Gastroenterologist,98765432330,"Pune, Maharashtra",Dhayari,3
+331,Bhavya Shah,PhD ,Occupational Medicine,98765432331,"Pune, Maharashtra",Sahakar Nagar,1
+332,Advik Gupta,BDS ,Emergency Medicine,98765432332,"Pune, Maharashtra",Viman Nagar,1
+333,Deepika Verma,DVM ,Critical Care Medicine,98765432333,"Pune, Maharashtra",Koregaon Park,1
+334,Avani Rajput,MBBS ,Gastroenterologist,98765432334,"Pune, Maharashtra",Ganeshwadi,3
+335,Eshaan Yadav,DO ,Diagnostic Radiology,98765432335,"Pune, Maharashtra",Kothrud,5
+336,Avani Rajput,PhD ,Anatomical Pathology,98765432336,"Pune, Maharashtra",Magarpatta,4
+337,Aditi Das,JD ,Hematology,98765432337,"Pune, Maharashtra",Model Colony,3
+338,Eshaan Yadav,BDS ,Medical Genetics,98765432338,"Pune, Maharashtra",Mohammadwadi,5
+339,Abhinav Chauhan,MD-PhD,Geriatric Medicine,98765432339,"Pune, Maharashtra",Sahakar Nagar,1
+340,Advik Gupta,PharmD ,Rheumatologist,98765432340,"Pune, Maharashtra",Dhanori,2
+341,Aarav Agarwal,PsyD ,ENT/general physician,98765432341,"Pune, Maharashtra",Kondhwa Khurd,4
+342,Avani Rajput,MD ,Psychiatry,98765432342,"Pune, Maharashtra",Sahakar Nagar,1
+343,Daksh Tiwari,MD ,Phlebologist ,98765432343,"Pune, Maharashtra",Ganeshwadi,1
+344,Aisha Joshi,JD ,Family Medicine,98765432344,"Pune, Maharashtra",Deccan Gymkhana,5
+345,Aditi Das,DO ,Ophthalmology,98765432345,"Pune, Maharashtra",Tingale Nagar,4
+346,Chetan Singh,DO ,Nuclear Medicine,98765432346,"Pune, Maharashtra",NIBM (Nanded City),1
+347,Aisha Joshi,PhD ,Medical Biochemistry,98765432347,"Pune, Maharashtra",Hinjewadi,5
+348,Aditi Das,JD ,Otolaryngologist,98765432348,"Pune, Maharashtra",Shivaji Nagar,2
+349,Ananya Mishra,BDS ,Diagnostic Radiology,98765432349,"Pune, Maharashtra",Bavdhan,1
+350,Abhinav Chauhan,DPT ,Plastic Surgery,98765432350,"Pune, Maharashtra",Tingale Nagar,5
+351,Aisha Joshi,DMD ,Hematology,98765432351,"Pune, Maharashtra",Shivaji Nagar,3
+352,Ananya Mishra,PhD ,Anatomical Pathology,98765432352,"Pune, Maharashtra",Ganeshwadi,5
+353,Daksh Tiwari,MBBS ,Obstetrics/Gynecology,98765432353,"Pune, Maharashtra",Tingale Nagar,2
+354,Daksh Tiwari,JD ,Anatomical Pathology,98765432354,"Pune, Maharashtra",Sahakar Nagar,1
+355,Akshay Kumar,DVM ,Otolaryngologist,98765432355,"Pune, Maharashtra",Ganeshwadi,5
+356,Arjun Patel,PhD ,Dermatologist,98765432356,"Pune, Maharashtra",Viman Nagar,5
+357,Aarav Agarwal,DNP ,Anatomical Pathology,98765432357,"Pune, Maharashtra",Moshi,2
+358,Aditi Das,EdD ,Obstetrics/Gynecology,98765432358,"Pune, Maharashtra",Yerwada,1
+359,Aditi Das,MD ,Family Medicine,98765432359,"Pune, Maharashtra",Bibwewadi,2
+360,Arjun Patel,DNP ,General Surgery,98765432360,"Pune, Maharashtra",Hinjewadi,3
+361,Bhavya Shah,PsyD ,Cardiologist,98765432361,"Pune, Maharashtra",Bavdhan,4
+362,Akshay Kumar,MD ,Family Medicine,98765432362,"Pune, Maharashtra",Pune Satara Road,5
+363,Aaradhya Bansal,BDS ,Orthopedic Surgery,98765432363,"Pune, Maharashtra",Pimple Gaurav,4
+364,Aisha Joshi,MD-PhD,Anatomical Pathology,98765432364,"Pune, Maharashtra",Dhayari,1
+365,Ananya Mishra,DNP ,Rheumatologist,98765432365,"Pune, Maharashtra",Pimple Gaurav,3
+366,Arjun Patel,EdD ,Clinical Immunology/Allergy,98765432366,"Pune, Maharashtra",Kondhwa Khurd,5
+367,Akshay Kumar,DC ,Anesthesiology,98765432367,"Pune, Maharashtra",Pimple Nilach,4
+368,Raj singh,PharmD ,Medical Oncology,98765432368,"Pune, Maharashtra",Mundhwa,5
+369,Arnav khobe,JD ,Pediatrics,98765432369,"Pune, Maharashtra",Aundh,3
+370,Aarav Agarwal,MD-PhD,Plastic Surgery,98765432370,"Pune, Maharashtra",Magarpatta,2
+371,Avani Rajput,DVM ,Neurosurgery,98765432371,"Pune, Maharashtra",Hinjewadi,2
+372,Chetan Singh,DPT ,Hematology,98765432372,"Pune, Maharashtra",Wakad Chowk,5
+373,Akshay Kumar,JD ,Medical Microbiology and Infectious Diseases,98765432373,"Pune, Maharashtra",Shivaji Nagar,4
+374,Advik Gupta,PhD ,Anatomical Pathology,98765432374,"Pune, Maharashtra",Kondhwa,1
+375,Aarav Agarwal,PhD ,Nuclear Medicine,98765432375,"Pune, Maharashtra",Aundh,3
+376,Ananya Mishra,DC ,General Surgery,98765432376,"Pune, Maharashtra",Magarpatta,1
+377,Abhinav Chauhan,MBBS ,Diagnostic Radiology,98765432377,"Pune, Maharashtra",Hadapsar,4
+378,Aisha Joshi,BDS ,Phlebologist ,98765432378,"Pune, Maharashtra",Akurdi,2
+379,Aaradhya Bansal,MD-PhD,Respirology,98765432379,"Pune, Maharashtra",Dhankawdi,3
+380,Abhinav Chauhan,BDS ,Obstetrics/Gynecology,98765432380,"Pune, Maharashtra",Tingale Nagar,3
+381,Eshaan Yadav,PsyD ,Medical Biochemistry,98765432381,"Pune, Maharashtra",Model Colony,2
+382,Daksh Tiwari,MD-PhD,Cardiologist,98765432382,"Pune, Maharashtra",Lohegaon,2
+383,Advik Gupta,PsyD ,Nephrology,98765432383,"Pune, Maharashtra",Bhosari,5
+384,Bhavya Shah,DVM ,Plastic Surgery,98765432384,"Pune, Maharashtra",Kondhwa,2
+385,Arjun Patel,DVM ,General Surgery,98765432385,"Pune, Maharashtra",Pune Satara Road,1
+386,Daksh Tiwari,EdD ,Diagnostic Radiology,98765432386,"Pune, Maharashtra",Ganeshwadi,2
+387,Advik Gupta,JD ,Otolaryngologist,98765432387,"Pune, Maharashtra",Dhanori,5
+388,Avani Rajput,MBBS ,Dermatologist,98765432388,"Pune, Maharashtra",Theur,2
+389,Aditi Das,DPT ,ENT/general physician,98765432389,"Pune, Maharashtra",Magarpatta,2
+390,Aaradhya Bansal,DVM ,Pediatrics,98765432390,"Pune, Maharashtra",Yerwada,2
+391,Daksh Tiwari,PharmD ,Medical Biochemistry,98765432391,"Pune, Maharashtra",Yerwada,5
+392,Daksh Tiwari,DMD ,General Surgery,98765432392,"Pune, Maharashtra",Dhankawadi,1
+393,Aisha Joshi,MD-PhD,Rheumatologist,98765432393,"Pune, Maharashtra",Tingale Nagar,1
+394,Aditya Kapoor,PharmD ,Occupational Medicine,98765432394,"Pune, Maharashtra",Sahakar Nagar,5
+395,Aisha Joshi,MD ,General Internal Medicine,98765432395,"Pune, Maharashtra",Bund Garden,1
+396,Chetan Singh,MD-PhD,Hematology,98765432396,"Pune, Maharashtra",Tingale Nagar,4
+397,Arjun Patel,EdD ,Medical Oncology,98765432397,"Pune, Maharashtra",Wakad Chowk,5
+398,Aditi Das,DO ,Family Medicine,98765432398,"Pune, Maharashtra",Bibwewadi,1
+399,Arjun Patel,DVM ,Phlebologist ,98765432399,"Pune, Maharashtra",Balewadi,3
+400,Bhavya Shah,PsyD ,Hematology,98765432400,"Pune, Maharashtra",Akurdi,2
+401,Aditi Das,DO ,Hematology,98765432401,"Pune, Maharashtra",Fatima Nagar,2
+402,Aisha Joshi,MBBS ,Diagnostic Radiology,98765432402,"Pune, Maharashtra",Theur,1
+403,Aaradhya Bansal,MD-PhD,Otolaryngologist,98765432403,"Pune, Maharashtra",Warje,5
+404,Arjun Patel,MBBS ,Gastroenterologist,98765432404,"Pune, Maharashtra",Bibwewadi,1
+405,Ananya Mishra,BDS ,Medical Genetics,98765432405,"Pune, Maharashtra",Akurdi,2
+406,Aarav Agarwal,MBBS ,Orthopedic Surgery,98765432406,"Pune, Maharashtra",Model Colony,1
+407,Aaradhya Bansal,JD ,Dermatologist,98765432407,"Pune, Maharashtra",Ganeshwadi,1
+408,Advik Gupta,MD ,General Surgery,98765432408,"Pune, Maharashtra",Theur,1
+409,Chetan Singh,DC ,Anatomical Pathology,98765432409,"Pune, Maharashtra",Pimple Nilach,3
+410,Aaradhya Bansal,MD ,General Internal Medicine,98765432410,"Pune, Maharashtra",Lohegaon,2
+411,Ananya Mishra,MBBS ,Medical Oncology,98765432411,"Pune, Maharashtra",Shivaji Nagar,5
+412,Abhinav Chauhan,MD ,Nephrology,98765432412,"Pune, Maharashtra",Magarpatta,2
+413,Arjun Patel,DO ,Cardiologist,98765432413,"Pune, Maharashtra",Yerwada,4
+414,Arnav khobe,MD-PhD,Dermatologist,98765432414,"Pune, Maharashtra",Tingale Nagar,1
+415,Akshay Kumar,JD ,General Surgery,98765432415,"Pune, Maharashtra",Warje,3
+416,Samyak Nagdevte,JD ,Diagnostic Radiology,98765432416,"Pune, Maharashtra",Pimpri-Chinchwad,5
+417,Ananya Mishra,BDS ,Medical Oncology,98765432417,"Pune, Maharashtra",Viman Nagar,1
+418,Eshaan Yadav,MBBS ,Medical Oncology,98765432418,"Pune, Maharashtra",Pimple Nilach,1
+419,Akshay Kumar,BDS ,Radiation Oncology,98765432419,"Pune, Maharashtra",Deccan Gymkhana,5
+420,Advik Gupta,DMD ,Rheumatologist,98765432420,"Pune, Maharashtra",Theur,3
+421,Chetan Singh,MBBS ,Critical Care Medicine,98765432421,"Pune, Maharashtra",Nigdi,5
+422,Aisha Joshi,PhD ,Rheumatologist,98765432422,"Pune, Maharashtra",Bibwewadi,1
+423,Akshay Kumar,DPT ,Critical Care Medicine,98765432423,"Pune, Maharashtra",Dhankawdi,5
+424,Avani Rajput,DO ,Cardiovascular/Thoracic Surgery,98765432424,"Pune, Maharashtra",Swargate,1
+425,Aaradhya Bansal,BDS ,Family Medicine,98765432425,"Pune, Maharashtra",Pune Satara Road,2
+426,Aarav Agarwal,EdD ,Hematology,98765432426,"Pune, Maharashtra",Pimpri-Chinchwad,1
+427,Chetan Singh,DO ,Psychiatry,98765432427,"Pune, Maharashtra",Kothrud,4
+428,Arjun Patel,PsyD ,Phlebologist ,98765432428,"Pune, Maharashtra",Dhankawdi,3
+429,Avani Rajput,PsyD ,Plastic Surgery,98765432429,"Pune, Maharashtra",Balewadi,4
+430,Avani Rajput,DMD ,Plastic Surgery,98765432430,"Pune, Maharashtra",Kalyani Nagar,2
+431,Aditi Das,DC ,Clinical Immunology/Allergy,98765432431,"Pune, Maharashtra",Dhayari,5
+432,Aditi Das,MD ,Medical Biochemistry,98765432432,"Pune, Maharashtra",Bund Garden,5
+433,Akshay Kumar,MD ,Nephrology,98765432433,"Pune, Maharashtra",Swargate,4
+434,Bhavya Shah,MBBS ,Clinical Immunology/Allergy,98765432434,"Pune, Maharashtra",Mohammadwadi,3
+435,Abhinav Chauhan,EdD ,Medical Oncology,98765432435,"Pune, Maharashtra",Viman Nagar,5
+436,Daksh Tiwari,DVM ,Clinical Immunology/Allergy,98765432436,"Pune, Maharashtra",Theur,4
+437,Akshay Kumar,JD ,Gastroenterologist,98765432437,"Pune, Maharashtra",Kharadi,3
+438,Akshay Kumar,MBBS ,Hematology,98765432438,"Pune, Maharashtra",Bhosari,3
+439,Aaradhya Bansal,BDS ,Anesthesiology,98765432439,"Pune, Maharashtra",Kondhwa Khurd,5
+440,Bhavya Shah,MD ,Endocrinologist,98765432440,"Pune, Maharashtra",Shivaji Nagar,5
+441,Aaradhya Bansal,DNP ,Anesthesiology,98765432441,"Pune, Maharashtra",Akurdi,4
+442,Aisha Joshi,BDS ,Critical Care Medicine,98765432442,"Pune, Maharashtra",Bibwewadi,2
+443,Deepika Verma,DMD ,Neurosurgery,98765432443,"Pune, Maharashtra",Dhankawadi,5
+444,Arjun Patel,PsyD ,Diagnostic Radiology,98765432444,"Pune, Maharashtra",Shivaji Nagar,5
+445,Aditi Das,JD ,Orthopedic Surgery,98765432445,"Pune, Maharashtra",Baner,3
+446,Aarav Agarwal,MD-PhD,Emergency Medicine,98765432446,"Pune, Maharashtra",Akurdi,4
+447,Daksh Tiwari,BDS ,Medical Biochemistry,98765432447,"Pune, Maharashtra",Tingale Nagar,2
+448,Arjun Patel,DO ,Nephrology,98765432448,"Pune, Maharashtra",Hinjewadi,4
+449,Eshaan Yadav,DNP ,Geriatric Medicine,98765432449,"Pune, Maharashtra",Deccan Gymkhana,2
+450,Chetan Singh,JD ,Geriatric Medicine,98765432450,"Pune, Maharashtra",Warje,1
+451,Daksh Tiwari,MD ,Hematology,98765432451,"Pune, Maharashtra",Katraj,2
+452,Aarav Agarwal,DMD ,Critical Care Medicine,98765432452,"Pune, Maharashtra",Yerwada,4
+453,Chetan Singh,BDS ,Cardiologist,98765432453,"Pune, Maharashtra",Pune Satara Road,5
+454,Bhavya Shah,DVM ,Medical Microbiology and Infectious Diseases,98765432454,"Pune, Maharashtra",Fatima Nagar,1
+455,Abhinav Chauhan,DPT ,Emergency Medicine,98765432455,"Pune, Maharashtra",Ganeshwadi,3
+456,Aditi Das,BDS ,Obstetrics/Gynecology,98765432456,"Pune, Maharashtra",Mohammadwadi,3
+457,Arjun Patel,DVM ,ENT/general physician,98765432457,"Pune, Maharashtra",Kondhwa,4
+458,Eshaan Yadav,DPT ,Emergency Medicine,98765432458,"Pune, Maharashtra",Camp,2
+459,Advik Gupta,DMD ,Cardiologist,98765432459,"Pune, Maharashtra",Bavdhan,4
+460,Ananya Mishra,PharmD ,Obstetrics/Gynecology,98765432460,"Pune, Maharashtra",Firodiya Nagar,3
+461,Avani Rajput,PsyD ,Diagnostic Radiology,98765432461,"Pune, Maharashtra",Koregaon Park,4
+462,Akshay Kumar,MD ,Family Medicine,98765432462,"Pune, Maharashtra",Theur,5
+463,Samyak Nagdevte,DPT ,Dermatologist,98765432463,"Pune, Maharashtra",Pimple Nilach,4
+464,Avani Rajput,DVM ,Obstetrics/Gynecology,98765432464,"Pune, Maharashtra",Model Colony,3
+465,Advik Gupta,DPT ,Family Medicine,98765432465,"Pune, Maharashtra",Nigdi,3
+466,Aarav Agarwal,DC ,Diagnostic Radiology,98765432466,"Pune, Maharashtra",Pimple Nilach,1
+467,Ananya Mishra,MBBS ,Critical Care Medicine,98765432467,"Pune, Maharashtra",Deccan Gymkhana,4
+468,Avani Rajput,MD ,Medical Microbiology and Infectious Diseases,98765432468,"Pune, Maharashtra",Bibwewadi,2
+469,Daksh Tiwari,BDS ,General Internal Medicine,98765432469,"Pune, Maharashtra",Aundh,1
+470,Akshay Kumar,MD ,Anatomical Pathology,98765432470,"Pune, Maharashtra",Mundhwa,4
+471,Arjun Patel,PhD ,Obstetrics/Gynecology,98765432471,"Pune, Maharashtra",Yerwada,5
+472,Abhinav Chauhan,DMD ,Cardiologist,98765432472,"Pune, Maharashtra",Pimple Nilach,5
+473,Daksh Tiwari,DNP ,Radiation Oncology,98765432473,"Pune, Maharashtra",Kothrud,4
+474,Akshay Kumar,DNP ,Clinical Immunology/Allergy,98765432474,"Pune, Maharashtra",Pimple Gaurav,5
+475,Abhinav Chauhan,PharmD ,Respirology,98765432475,"Pune, Maharashtra",Bavdhan,5
+476,Chetan Singh,PharmD ,Respirology,98765432476,"Pune, Maharashtra",Dhankawdi,3
+477,Abhinav Chauhan,PhD ,Ophthalmology,98765432477,"Pune, Maharashtra",Aundh,1
+478,Aditi Das,PhD ,Clinical Immunology/Allergy,98765432478,"Pune, Maharashtra",Tingale Nagar,1
+479,Ananya Mishra,MBBS ,General Internal Medicine,98765432479,"Pune, Maharashtra",Hinjewadi,4
+480,Arjun Patel,DPT ,Obstetrics/Gynecology,98765432480,"Pune, Maharashtra",Bund Garden,2
+481,Chetan Singh,MD-PhD,General Internal Medicine,98765432481,"Pune, Maharashtra",Deccan Gymkhana,1
+482,Aaradhya Bansal,MD-PhD,Cardiologist,98765432482,"Pune, Maharashtra",Theur,2
+483,Ananya Mishra,MD-PhD,Psychiatry,98765432483,"Pune, Maharashtra",Firodiya Nagar,3
+484,Aaradhya Bansal,DNP ,Family Medicine,98765432484,"Pune, Maharashtra",Viman Nagar,1
+485,Chetan Singh,DMD ,Medical Microbiology and Infectious Diseases,98765432485,"Pune, Maharashtra",Magarpatta,4
+486,Bhavya Shah,PhD ,Rheumatologist,98765432486,"Pune, Maharashtra",Bibwewadi,4
+487,Akshay Kumar,PhD ,Family Medicine,98765432487,"Pune, Maharashtra",Dhanori,4
+488,Aaradhya Bansal,BDS ,Otolaryngologist,98765432488,"Pune, Maharashtra",Model Colony,2
+489,Eshaan Yadav,DO ,Medical Biochemistry,98765432489,"Pune, Maharashtra",Balewadi,4
+490,Daksh Tiwari,JD ,Proctologist ,98765432490,"Pune, Maharashtra",Baner,5
+491,Arjun Patel,BDS ,Neurosurgery,98765432491,"Pune, Maharashtra",Balewadi,5
+492,Aisha Joshi,EdD ,Medical Oncology,98765432492,"Pune, Maharashtra",Bund Garden,5
+493,Abhinav Chauhan,DNP ,General Surgery,98765432493,"Pune, Maharashtra",Deccan Gymkhana,2
+494,Samyak Nagdevte,MD ,Hematology,98765432494,"Pune, Maharashtra",Shivaji Nagar,2
+495,Ananya Mishra,JD ,Clinical Immunology/Allergy,98765432495,"Pune, Maharashtra",Baner,4
+496,Raja sarkar,PsyD ,Pediatrics,98765432496,"Pune, Maharashtra",Baner,5
+497,Deepika Verma,MD ,ENT/general physician,98765432497,"Pune, Maharashtra",Deccan Gymkhana,2
+498,Daksh Tiwari,EdD ,Pediatrics,98765432498,"Pune, Maharashtra",Kalyani Nagar,3
+499,Akshay Kumar,MBBS ,Cardiologist,98765432499,"Pune, Maharashtra",Baner,5
+500,Aaradhya Bansal,PhD ,Medical Genetics,98765432500,"Pune, Maharashtra",Pimpri-Chinchwad,1
+501,Avani Rajput,EdD ,General Internal Medicine,98765432501,"Pune, Maharashtra",Aundh Road,1
+502,Aaradhya Bansal,DVM ,Ophthalmology,98765432502,"Pune, Maharashtra",Dhankawadi,5
+503,Advik Gupta,MD-PhD,Pediatrics,98765432503,"Pune, Maharashtra",Wakad Chowk,4
+504,Ananya Mishra,DC ,Nephrology,98765432504,"Pune, Maharashtra",Bavdhan,5
+505,Aarav Agarwal,DVM ,Critical Care Medicine,98765432505,"Pune, Maharashtra",Aundh Road,1
+506,Avani Rajput,MD-PhD,Medical Microbiology and Infectious Diseases,98765432506,"Pune, Maharashtra",Aundh Road,4
+507,Ananya Mishra,PhD ,Obstetrics/Gynecology,98765432507,"Pune, Maharashtra",NIBM (Nanded City),2
+508,Advik Gupta,MD-PhD,Dermatologist,98765432508,"Pune, Maharashtra",Tingale Nagar,4
+509,Akshay Kumar,PsyD ,Respirology,98765432509,"Pune, Maharashtra",Dhankawdi,5
+510,Abhinav Chauhan,BDS ,Pediatrics,98765432510,"Pune, Maharashtra",Dhankawdi,3
+511,Avani Rajput,DNP ,Rheumatologist,98765432511,"Pune, Maharashtra",Koregaon Park,3
+512,Aaradhya Bansal,JD ,Nephrology,98765432512,"Pune, Maharashtra",Mohammadwadi,1
+513,Daksh Tiwari,EdD ,Plastic Surgery,98765432513,"Pune, Maharashtra",Aundh Road,5
+514,Arjun Patel,PhD ,Anatomical Pathology,98765432514,"Pune, Maharashtra",Pimple Gaurav,2
+515,Arjun Patel,MD-PhD,Rheumatologist,98765432515,"Pune, Maharashtra",Shivaji Nagar,2
+516,Deepika Verma,MBBS ,Cardiologist,98765432516,"Pune, Maharashtra",Aundh Road,4
+517,Deepika Verma,DNP ,Nuclear Medicine,98765432517,"Pune, Maharashtra",Mohammadwadi,5
+518,Avani Rajput,PsyD ,Orthopedic Surgery,98765432518,"Pune, Maharashtra",Moshi,1
+519,Eshaan Yadav,DNP ,ENT/general physician,98765432519,"Pune, Maharashtra",Koregaon Park,5
+520,Daksh Tiwari,JD ,General Internal Medicine,98765432520,"Pune, Maharashtra",Aundh,5
+521,Akshay Kumar,DC ,Anesthesiology,98765432521,"Pune, Maharashtra",Moshi,1
+522,Aarav Agarwal,DPT ,Plastic Surgery,98765432522,"Pune, Maharashtra",Viman Nagar,3
+523,Deepika Verma,JD ,Geriatric Medicine,98765432523,"Pune, Maharashtra",Kharadi,2
+524,Aarav Agarwal,DC ,Nuclear Medicine,98765432524,"Pune, Maharashtra",Theur,1
+525,Daksh Tiwari,PhD ,General Surgery,98765432525,"Pune, Maharashtra",Kondhwa,5
+526,Abhinav Chauhan,DMD ,Clinical Immunology/Allergy,98765432526,"Pune, Maharashtra",Wakad,3
+527,Advik Gupta,DPT ,Gastroenterologist,98765432527,"Pune, Maharashtra",Fatima Nagar,4
+528,Bhavya Shah,PsyD ,Cardiologist,98765432528,"Pune, Maharashtra",Camp,4
+529,Chetan Singh,MD ,General Surgery,98765432529,"Pune, Maharashtra",Hadapsar,3
+530,Deepika Verma,PhD ,Geriatric Medicine,98765432530,"Pune, Maharashtra",Pimple Gaurav,5
+531,Advik Gupta,DC ,Pediatrics,98765432531,"Pune, Maharashtra",Pune Satara Road,3
+532,Ananya Mishra,MD-PhD,Nuclear Medicine,98765432532,"Pune, Maharashtra",Lohegaon,2
+533,Arjun Patel,MD-PhD,Pediatrics,98765432533,"Pune, Maharashtra",Pimple Gaurav,4
+534,Abhinav Chauhan,DMD ,Plastic Surgery,98765432534,"Pune, Maharashtra",NIBM (Nanded City),1
+535,Bhavya Shah,MD-PhD,Clinical Immunology/Allergy,98765432535,"Pune, Maharashtra",Kalyani Nagar,2
+536,Akshay Kumar,PhD ,Cardiovascular/Thoracic Surgery,98765432536,"Pune, Maharashtra",Camp,5
+537,Bhavya Shah,PhD ,General Internal Medicine,98765432537,"Pune, Maharashtra",Moshi,3
+538,Aditi Das,EdD ,Psychiatry,98765432538,"Pune, Maharashtra",Warje,2
+539,Advik Gupta,BDS ,Respirology,98765432539,"Pune, Maharashtra",Firodiya Nagar,4
+540,Daksh Tiwari,PhD ,Medical Genetics,98765432540,"Pune, Maharashtra",Swargate,5
+541,Aisha Joshi,BDS ,Nuclear Medicine,98765432541,"Pune, Maharashtra",Pimpri-Chinchwad,1
+542,Abhinav Chauhan,PharmD ,Pediatrics,98765432542,"Pune, Maharashtra",Mohammadwadi,2
+543,Abhinav Chauhan,DNP ,ENT/general physician,98765432543,"Pune, Maharashtra",Hadapsar,4
+544,Daksh Tiwari,DVM ,Cardiologist,98765432544,"Pune, Maharashtra",Kondhwa Khurd,2
+545,Arjun Patel,MD ,Otolaryngologist,98765432545,"Pune, Maharashtra",Hinjewadi,4
+546,Advik Gupta,PhD ,Critical Care Medicine,98765432546,"Pune, Maharashtra",Tingale Nagar,2
+547,Ananya Mishra,PharmD ,Dermatologist,98765432547,"Pune, Maharashtra",Hadapsar,5
+548,Akshay Kumar,PsyD ,Cardiovascular/Thoracic Surgery,98765432548,"Pune, Maharashtra",Wakad,1
+549,Akshay Kumar,PhD ,Proctologist ,98765432549,"Pune, Maharashtra",Hinjewadi,5
+550,Deepika Verma,DNP ,Diagnostic Radiology,98765432550,"Pune, Maharashtra",Kondhwa,3
+551,Arjun Patel,DNP ,Gastroenterologist,98765432551,"Pune, Maharashtra",Firodiya Nagar,3
+552,Daksh Tiwari,PharmD ,Respirology,98765432552,"Pune, Maharashtra",Kharadi,3
+553,Ananya Mishra,PhD ,Psychiatry,98765432553,"Pune, Maharashtra",Moshi,5
+554,Arjun Patel,PharmD ,ENT/general physician,98765432554,"Pune, Maharashtra",Deccan Gymkhana,4
+555,Deepika Verma,BDS ,Anesthesiology,98765432555,"Pune, Maharashtra",Kalyani Nagar,1
+556,Bhavya Shah,PsyD ,Neurologist,98765432556,"Pune, Maharashtra",Ravet,1
+557,Aditi Das,MD-PhD,Radiation Oncology,98765432557,"Pune, Maharashtra",Akurdi,3
+558,Avani Rajput,DPT ,Ophthalmology,98765432558,"Pune, Maharashtra",Aundh Road,5
+559,Deepika Verma,JD ,Nuclear Medicine,98765432559,"Pune, Maharashtra",Fatima Nagar,4
+560,Chetan Singh,DVM ,Diagnostic Radiology,98765432560,"Pune, Maharashtra",Kondhwa Khurd,3
+561,Abhinav Chauhan,PharmD ,Obstetrics/Gynecology,98765432561,"Pune, Maharashtra",Kondhwa Khurd,2
+562,Deepika Verma,MBBS ,Critical Care Medicine,98765432562,"Pune, Maharashtra",Kothrud,5
+563,Daksh Tiwari,DC ,Anesthesiology,98765432563,"Pune, Maharashtra",Bibwewadi,4
+564,Advik Gupta,MD-PhD,Neurosurgery,98765432564,"Pune, Maharashtra",Hinjewadi,4
+565,Chetan Singh,PsyD ,Medical Biochemistry,98765432565,"Pune, Maharashtra",Pune Satara Road,4
+566,Arjun Patel,BDS ,Psychiatry,98765432566,"Pune, Maharashtra",Lohegaon,2
+567,Deepika Verma,DPT ,Neurologist,98765432567,"Pune, Maharashtra",Hinjewadi,2
+568,Deepika Verma,DMD ,Critical Care Medicine,98765432568,"Pune, Maharashtra",Pimpri-Chinchwad,3
+569,Avani Rajput,PhD ,ENT/general physician,98765432569,"Pune, Maharashtra",Moshi,5
+570,Aaradhya Bansal,DPT ,Cardiologist,98765432570,"Pune, Maharashtra",Pune Satara Road,5
+571,Bhavya Shah,MD-PhD,Obstetrics/Gynecology,98765432571,"Pune, Maharashtra",Deccan Gymkhana,1
+572,Aarav Agarwal,BDS ,Otolaryngologist,98765432572,"Pune, Maharashtra",Warje,4
+573,Chetan Singh,JD ,Respirology,98765432573,"Pune, Maharashtra",Mohammadwadi,4
+574,Chetan Singh,DPT ,Family Medicine,98765432574,"Pune, Maharashtra",Aundh,3
+575,Arjun Patel,DNP ,Ophthalmology,98765432575,"Pune, Maharashtra",Bhosari,3
+576,Aditi Das,MBBS ,Medical Oncology,98765432576,"Pune, Maharashtra",Kothrud,3
+577,Arjun Patel,DNP ,Proctologist ,98765432577,"Pune, Maharashtra",Lohegaon,3
+578,Chetan Singh,DVM ,Psychiatry,98765432578,"Pune, Maharashtra",Aundh,2
+579,Chetan Singh,MBBS ,Nephrology,98765432579,"Pune, Maharashtra",Fatima Nagar,1
+580,Aarav Agarwal,DPT ,Medical Microbiology and Infectious Diseases,98765432580,"Pune, Maharashtra",Mohammadwadi,4
+581,Aarav Agarwal,DMD ,Orthopedic Surgery,98765432581,"Pune, Maharashtra",Ganeshwadi,5
+582,Avani Rajput,DPT ,Medical Genetics,98765432582,"Pune, Maharashtra",Fatima Nagar,5
+583,Aditi Das,DO ,Occupational Medicine,98765432583,"Pune, Maharashtra",Bibwewadi,1
+584,Advik Gupta,MD-PhD,Neurologist,98765432584,"Pune, Maharashtra",Koregaon Park,1
+585,Advik Gupta,PsyD ,Medical Genetics,98765432585,"Pune, Maharashtra",Sahakar Nagar,5
+586,Aaradhya Bansal,DO ,Anatomical Pathology,98765432586,"Pune, Maharashtra",Tingale Nagar,3
+587,Daksh Tiwari,EdD ,Proctologist ,98765432587,"Pune, Maharashtra",Kothrud,4
+588,Ananya Mishra,DNP ,Neurologist,98765432588,"Pune, Maharashtra",Dhankawadi,3
+589,Avani Rajput,PsyD ,Nephrology,98765432589,"Pune, Maharashtra",NIBM (Nanded City),4
+590,Arjun Patel,MBBS ,Endocrinologist,98765432590,"Pune, Maharashtra",Fatima Nagar,5
+591,Eshaan Yadav,MD-PhD,Endocrinologist,98765432591,"Pune, Maharashtra",Kalyani Nagar,2
+592,Aarav Agarwal,PharmD ,Emergency Medicine,98765432592,"Pune, Maharashtra",Koregaon Park,3
+593,Advik Gupta,BDS ,Medical Oncology,98765432593,"Pune, Maharashtra",Ravet,4
+594,Aisha Joshi,MBBS ,Nephrology,98765432594,"Pune, Maharashtra",Yerwada,2
+595,Ananya Mishra,MBBS ,Otolaryngologist,98765432595,"Pune, Maharashtra",Bavdhan,4
+596,Advik Gupta,DPT ,Nephrology,98765432596,"Pune, Maharashtra",Bhosari,3
+597,Bhavya Shah,DC ,Respirology,98765432597,"Pune, Maharashtra",Mundhwa,5
+598,Bhavya Shah,PharmD ,Medical Oncology,98765432598,"Pune, Maharashtra",Sahakar Nagar,5
+599,Daksh Tiwari,BDS ,Orthopedic Surgery,98765432599,"Pune, Maharashtra",Deccan Gymkhana,2
+600,Daksh Tiwari,DC ,Neurologist,98765432600,"Pune, Maharashtra",Hadapsar,4
+601,Abhinav Chauhan,PsyD ,Radiation Oncology,98765432601,"Pune, Maharashtra",Koregaon Park,4
+602,Aditi Das,DMD ,Critical Care Medicine,98765432602,"Pune, Maharashtra",Pimpri-Chinchwad,2
+603,Bhavya Shah,PhD ,Obstetrics/Gynecology,98765432603,"Pune, Maharashtra",Hinjewadi,2
+604,Arjun Patel,PsyD ,Occupational Medicine,98765432604,"Pune, Maharashtra",Aundh Road,2
+605,Aarav Agarwal,PsyD ,Medical Genetics,98765432605,"Pune, Maharashtra",Kharadi,5
+606,Deepika Verma,JD ,Obstetrics/Gynecology,98765432606,"Pune, Maharashtra",Katraj,2
+607,Advik Gupta,MBBS ,Medical Microbiology and Infectious Diseases,98765432607,"Pune, Maharashtra",Kondhwa Khurd,4
+608,Abhinav Chauhan,PharmD ,Pediatrics,98765432608,"Pune, Maharashtra",Hadapsar,4
+609,Arjun Patel,DVM ,Obstetrics/Gynecology,98765432609,"Pune, Maharashtra",Bibwewadi,3
+610,Aisha Joshi,PhD ,Plastic Surgery,98765432610,"Pune, Maharashtra",Kondhwa,1
+611,Ananya Mishra,DPT ,Respirology,98765432611,"Pune, Maharashtra",Deccan Gymkhana,3
+612,Aditi Das,DMD ,Medical Microbiology and Infectious Diseases,98765432612,"Pune, Maharashtra",Moshi,5
+613,Bhavya Shah,DC ,Diagnostic Radiology,98765432613,"Pune, Maharashtra",Mundhwa,5
+614,Aarav Agarwal,PharmD ,Emergency Medicine,98765432614,"Pune, Maharashtra",Bhosari,1
+615,Chetan Singh,MBBS ,General Internal Medicine,98765432615,"Pune, Maharashtra",Pimple Gaurav,2
+616,Ananya Mishra,DO ,Plastic Surgery,98765432616,"Pune, Maharashtra",Bund Garden,4
+617,Advik Gupta,DNP ,Radiation Oncology,98765432617,"Pune, Maharashtra",Lohegaon,4
+618,Bhavya Shah,PharmD ,Nuclear Medicine,98765432618,"Pune, Maharashtra",Theur,5
+619,Daksh Tiwari,DVM ,ENT/general physician,98765432619,"Pune, Maharashtra",Kalyani Nagar,4
+620,Avani Rajput,JD ,General Surgery,98765432620,"Pune, Maharashtra",Mundhwa,1
+621,Arjun Patel,PhD ,Otolaryngologist,98765432621,"Pune, Maharashtra",Wakad,1
+622,Akshay Kumar,MD ,Phlebologist ,98765432622,"Pune, Maharashtra",Tingale Nagar,2
+623,Aisha Joshi,DNP ,Ophthalmology,98765432623,"Pune, Maharashtra",Balewadi,5
+624,Eshaan Yadav,DC ,Neurologist,98765432624,"Pune, Maharashtra",Pimpri-Chinchwad,1
+625,Akshay Kumar,DNP ,Anesthesiology,98765432625,"Pune, Maharashtra",Wakad Chowk,1
+626,Bhavya Shah,BDS ,Nuclear Medicine,98765432626,"Pune, Maharashtra",Wakad,3
+627,Chetan Singh,MD-PhD,Medical Microbiology and Infectious Diseases,98765432627,"Pune, Maharashtra",Shivaji Nagar,4
+628,Aisha Joshi,BDS ,General Internal Medicine,98765432628,"Pune, Maharashtra",Ganeshwadi,1
+629,Deepika Verma,DC ,Phlebologist ,98765432629,"Pune, Maharashtra",Hadapsar,1
+630,Ananya Mishra,PsyD ,Medical Microbiology and Infectious Diseases,98765432630,"Pune, Maharashtra",Theur,5
+631,Aditi Das,PharmD ,Family Medicine,98765432631,"Pune, Maharashtra",Mundhwa,1
+632,Daksh Tiwari,MBBS ,Respirology,98765432632,"Pune, Maharashtra",Dhankawadi,4
+633,Avani Rajput,JD ,General Surgery,98765432633,"Pune, Maharashtra",Akurdi,5
+634,Aisha Joshi,DMD ,Geriatric Medicine,98765432634,"Pune, Maharashtra",Firodiya Nagar,2
+635,Arjun Patel,BDS ,Nuclear Medicine,98765432635,"Pune, Maharashtra",Model Colony,2
+636,Aisha Joshi,BDS ,Medical Genetics,98765432636,"Pune, Maharashtra",Kalyani Nagar,3
+637,Advik Gupta,BDS ,Neurosurgery,98765432637,"Pune, Maharashtra",Hinjewadi,5
+638,Chetan Singh,BDS ,Nephrology,98765432638,"Pune, Maharashtra",Balewadi,3
+639,Ananya Mishra,PhD ,Family Medicine,98765432639,"Pune, Maharashtra",Pimple Nilach,1
+640,Advik Gupta,PsyD ,Clinical Immunology/Allergy,98765432640,"Pune, Maharashtra",Yerwada,2
+641,Deepika Verma,PhD ,Nuclear Medicine,98765432641,"Pune, Maharashtra",Balewadi,3
+642,Advik Gupta,PharmD ,Family Medicine,98765432642,"Pune, Maharashtra",Swargate,3
+643,Ananya Mishra,DO ,Dermatologist,98765432643,"Pune, Maharashtra",Dhankawadi,5
+644,Raja sarkar,PsyD ,Clinical Immunology/Allergy,98765432644,"Pune, Maharashtra",Aundh Road,1
+645,Bhavya Shah,PsyD ,Ophthalmology,98765432645,"Pune, Maharashtra",Mohammadwadi,2
+646,Aisha Joshi,PhD ,ENT/general physician,98765432646,"Pune, Maharashtra",Ravet,5
+647,Deepika Verma,BDS ,Cardiovascular/Thoracic Surgery,98765432647,"Pune, Maharashtra",Firodiya Nagar,4
+648,Ananya Mishra,PsyD ,Endocrinologist,98765432648,"Pune, Maharashtra",Firodiya Nagar,4
+649,Aarav Agarwal,MD ,Psychiatry,98765432649,"Pune, Maharashtra",Hadapsar,1
+650,Advik Gupta,PhD ,Medical Biochemistry,98765432650,"Pune, Maharashtra",Kharadi,3
+651,Aarav Agarwal,MBBS ,Geriatric Medicine,98765432651,"Pune, Maharashtra",Dhayari,5
+652,Aisha Joshi,MD-PhD,Endocrinologist,98765432652,"Pune, Maharashtra",Aundh,5
+653,Bhavya Shah,BDS ,Diagnostic Radiology,98765432653,"Pune, Maharashtra",Wakad Chowk,5
+654,Aditi Das,MBBS ,General Surgery,98765432654,"Pune, Maharashtra",Dhanori,2
+655,Deepika Verma,PhD ,Obstetrics/Gynecology,98765432655,"Pune, Maharashtra",Ganeshwadi,2
+656,Daksh Tiwari,DVM ,Occupational Medicine,98765432656,"Pune, Maharashtra",NIBM (Nanded City),2
+657,Aditi Das,PhD ,Nephrology,98765432657,"Pune, Maharashtra",Viman Nagar,5
+658,Deepika Verma,DVM ,Diagnostic Radiology,98765432658,"Pune, Maharashtra",Dhankawadi,3
+659,Daksh Tiwari,DNP ,Hematology,98765432659,"Pune, Maharashtra",Warje,5
+660,Bhavya Shah,EdD ,Psychiatry,98765432660,"Pune, Maharashtra",Camp,2
+661,Advik Gupta,DO ,Anatomical Pathology,98765432661,"Pune, Maharashtra",Viman Nagar,1
+662,Ananya Mishra,PharmD ,Endocrinologist,98765432662,"Pune, Maharashtra",Kondhwa Khurd,5
+663,Aarav Agarwal,DMD ,Psychiatry,98765432663,"Pune, Maharashtra",Hadapsar,4
+664,Aditi Das,PharmD ,Family Medicine,98765432664,"Pune, Maharashtra",Sahakar Nagar,3
+665,Avani Rajput,MBBS ,Psychiatry,98765432665,"Pune, Maharashtra",Dhankawdi,4
+666,Akshay Kumar,MBBS ,Radiation Oncology,98765432666,"Pune, Maharashtra",Kalyani Nagar,1
+667,Raja sarkar,EdD ,General Internal Medicine,98765432667,"Pune, Maharashtra",Dhayari,1
+668,Bhavya Shah,MD ,Obstetrics/Gynecology,98765432668,"Pune, Maharashtra",Dhankawadi,3
+669,Akshay Kumar,MD-PhD,ENT/general physician,98765432669,"Pune, Maharashtra",Fatima Nagar,4
+670,Arjun Patel,MD ,Medical Biochemistry,98765432670,"Pune, Maharashtra",Balewadi,2
+671,Daksh Tiwari,JD ,Rheumatologist,98765432671,"Pune, Maharashtra",Bavdhan,2
+672,Chetan Singh,DC ,Phlebologist ,98765432672,"Pune, Maharashtra",Pimple Nilach,2
+673,Avani Rajput,BDS ,Radiation Oncology,98765432673,"Pune, Maharashtra",Warje,5
+674,Abhinav Chauhan,DVM ,Gastroenterologist,98765432674,"Pune, Maharashtra",NIBM (Nanded City),3
+675,Akshay Kumar,EdD ,Nephrology,98765432675,"Pune, Maharashtra",Mohammadwadi,4
+676,Deepika Verma,PsyD ,Rheumatologist,98765432676,"Pune, Maharashtra",Deccan Gymkhana,4
+677,Abhinav Chauhan,DC ,Diagnostic Radiology,98765432677,"Pune, Maharashtra",Mohammadwadi,3
+678,Raja sarkar,DNP ,Medical Microbiology and Infectious Diseases,98765432678,"Pune, Maharashtra",Sahakar Nagar,5
+679,Eshaan Yadav,PhD ,Hematology,98765432679,"Pune, Maharashtra",Kharadi,4
+680,Manthan pal,DPT ,Gastroenterologist,98765432680,"Pune, Maharashtra",Model Colony,3
+681,Akshay Kumar,DNP ,Otolaryngologist,98765432681,"Pune, Maharashtra",Aundh Road,4
+682,Chetan Singh,DO ,Radiation Oncology,98765432682,"Pune, Maharashtra",Model Colony,3
+683,Akshay Kumar,JD ,Rheumatologist,98765432683,"Pune, Maharashtra",Sahakar Nagar,3
+684,Arjun Patel,PharmD ,Medical Oncology,98765432684,"Pune, Maharashtra",Akurdi,5
+685,Deepika Verma,DO ,Orthopedic Surgery,98765432685,"Pune, Maharashtra",Wakad,2
+686,Ananya Mishra,PhD ,Anatomical Pathology,98765432686,"Pune, Maharashtra",Fatima Nagar,4
+687,Bhavya Shah,MD-PhD,Clinical Immunology/Allergy,98765432687,"Pune, Maharashtra",Nigdi,5
+688,Ananya Mishra,MD ,Geriatric Medicine,98765432688,"Pune, Maharashtra",Ganeshwadi,4
+689,Avani Rajput,PharmD ,Obstetrics/Gynecology,98765432689,"Pune, Maharashtra",Kalyani Nagar,3
+690,Chetan Singh,JD ,Psychiatry,98765432690,"Pune, Maharashtra",Kothrud,4
+691,Arjun Patel,DNP ,Psychiatry,98765432691,"Pune, Maharashtra",Warje,5
+692,Advik Gupta,BDS ,Radiation Oncology,98765432692,"Pune, Maharashtra",Mundhwa,2
+693,Chetan Singh,MD-PhD,Orthopedic Surgery,98765432693,"Pune, Maharashtra",Balewadi,2
+694,Eshaan Yadav,EdD ,Medical Oncology,98765432694,"Pune, Maharashtra",Kondhwa Khurd,2
+695,Aditi Das,MD ,Medical Genetics,98765432695,"Pune, Maharashtra",Kondhwa,3
+696,Abhinav Chauhan,JD ,Dermatologist,98765432696,"Pune, Maharashtra",Kalyani Nagar,2
+697,Aditi Das,PhD ,Dermatologist,98765432697,"Pune, Maharashtra",Viman Nagar,3
+698,Aaradhya Bansal,DPT ,Critical Care Medicine,98765432698,"Pune, Maharashtra",Mohammadwadi,4
+699,Aarav Agarwal,DC ,Proctologist ,98765432699,"Pune, Maharashtra",Magarpatta,1
+700,Arjun Patel,DNP ,Emergency Medicine,98765432700,"Pune, Maharashtra",Bavdhan,4
+701,Eshaan Yadav,MBBS ,Radiation Oncology,98765432701,"Pune, Maharashtra",Kondhwa Khurd,5
+702,Eshaan Yadav,DO ,Nuclear Medicine,98765432702,"Pune, Maharashtra",Kalyani Nagar,5
+703,Chetan Singh,DC ,Psychiatry,98765432703,"Pune, Maharashtra",Baner,1
+704,Avani Rajput,PsyD ,Diagnostic Radiology,98765432704,"Pune, Maharashtra",Pune Satara Road,4
+705,Advik Gupta,JD ,Pediatrics,98765432705,"Pune, Maharashtra",Dhanori,2
+706,Arjun Patel,DO ,Plastic Surgery,98765432706,"Pune, Maharashtra",Aundh Road,3
+707,Ananya Mishra,EdD ,Pediatrics,98765432707,"Pune, Maharashtra",Swargate,1
+708,Deepika Verma,MBBS ,Family Medicine,98765432708,"Pune, Maharashtra",Yerwada,5
+709,Advik Gupta,PsyD ,Orthopedic Surgery,98765432709,"Pune, Maharashtra",Ravet,2
+710,Chetan Singh,MD-PhD,Medical Oncology,98765432710,"Pune, Maharashtra",Pimple Gaurav,4
+711,Eshaan Yadav,PharmD ,Proctologist ,98765432711,"Pune, Maharashtra",Yerwada,4
+712,Ananya Mishra,PharmD ,Medical Oncology,98765432712,"Pune, Maharashtra",Kondhwa,4
+713,Arjun Patel,DC ,Gastroenterologist,98765432713,"Pune, Maharashtra",Mundhwa,1
+714,Avani Rajput,PharmD ,Endocrinologist,98765432714,"Pune, Maharashtra",Kharadi,1
+715,Arjun Patel,DC ,Cardiologist,98765432715,"Pune, Maharashtra",Katraj,3
+716,Aaradhya Bansal,PharmD ,Neurosurgery,98765432716,"Pune, Maharashtra",Kondhwa Khurd,2
+717,Eshaan Yadav,DVM ,Medical Microbiology and Infectious Diseases,98765432717,"Pune, Maharashtra",Bibwewadi,4
+718,Daksh Tiwari,DO ,General Internal Medicine,98765432718,"Pune, Maharashtra",Kothrud,4
+719,Aditi Das,DNP ,Diagnostic Radiology,98765432719,"Pune, Maharashtra",Magarpatta,3
+720,Arjun Patel,MBBS ,ENT/general physician,98765432720,"Pune, Maharashtra",Koregaon Park,2
+721,Eshaan Yadav,MD-PhD,Psychiatry,98765432721,"Pune, Maharashtra",Model Colony,1
+722,Avani Rajput,DNP ,Pediatrics,98765432722,"Pune, Maharashtra",Wakad,4
+723,Aisha Joshi,DPT ,Geriatric Medicine,98765432723,"Pune, Maharashtra",Akurdi,2
+724,Aisha Joshi,EdD ,Clinical Immunology/Allergy,98765432724,"Pune, Maharashtra",Model Colony,2
+725,Eshaan Yadav,PhD ,Medical Biochemistry,98765432725,"Pune, Maharashtra",Model Colony,5
+726,Deepika Verma,EdD ,Emergency Medicine,98765432726,"Pune, Maharashtra",Hadapsar,5
+727,Aditi Das,DVM ,Emergency Medicine,98765432727,"Pune, Maharashtra",Bavdhan,2
+728,Eshaan Yadav,PsyD ,Proctologist ,98765432728,"Pune, Maharashtra",Bibwewadi,3
+729,Avani Rajput,PharmD ,Critical Care Medicine,98765432729,"Pune, Maharashtra",Pimple Nilach,3
+730,Avani Rajput,JD ,Radiation Oncology,98765432730,"Pune, Maharashtra",Katraj,4
+731,Ananya Mishra,DMD ,Medical Genetics,98765432731,"Pune, Maharashtra",Koregaon Park,5
+732,Arjun Patel,PhD ,Pediatrics,98765432732,"Pune, Maharashtra",Bavdhan,4
+733,Aditi Das,DPT ,Geriatric Medicine,98765432733,"Pune, Maharashtra",Deccan Gymkhana,2
+734,Chetan Singh,JD ,Medical Genetics,98765432734,"Pune, Maharashtra",Theur,4
+735,Advik Gupta,DPT ,Proctologist ,98765432735,"Pune, Maharashtra",Model Colony,3
+736,Avani Rajput,DO ,Phlebologist ,98765432736,"Pune, Maharashtra",Camp,1
+737,Akshay Kumar,MD-PhD,Plastic Surgery,98765432737,"Pune, Maharashtra",Bhosari,4
+738,Daksh Tiwari,DC ,Medical Oncology,98765432738,"Pune, Maharashtra",Shivaji Nagar,5
+739,Aditi Das,BDS ,Radiation Oncology,98765432739,"Pune, Maharashtra",Tingale Nagar,4
+740,Aaradhya Bansal,DC ,Gastroenterologist,98765432740,"Pune, Maharashtra",Shivaji Nagar,3
+741,Deepika Verma,BDS ,Endocrinologist,98765432741,"Pune, Maharashtra",Dhankawdi,2
+742,Aisha Joshi,PharmD ,Nephrology,98765432742,"Pune, Maharashtra",Mundhwa,4
+743,Deepika Verma,DPT ,Neurologist,98765432743,"Pune, Maharashtra",Hinjewadi,5
+744,Daksh Tiwari,PsyD ,Psychiatry,98765432744,"Pune, Maharashtra",Bhosari,4
+745,Chetan Singh,MD-PhD,General Surgery,98765432745,"Pune, Maharashtra",Dhankawdi,4
+746,Manthan pal,BDS ,Plastic Surgery,98765432746,"Pune, Maharashtra",Shivaji Nagar,1
+747,Aisha Joshi,DO ,Family Medicine,98765432747,"Pune, Maharashtra",Pimple Gaurav,4
+748,Chetan Singh,PharmD ,Radiation Oncology,98765432748,"Pune, Maharashtra",Bavdhan,1
+749,Daksh Tiwari,DPT ,General Surgery,98765432749,"Pune, Maharashtra",Magarpatta,3
+750,Aaradhya Bansal,DPT ,Medical Genetics,98765432750,"Pune, Maharashtra",Fatima Nagar,2
+751,Bhavya Shah,PhD ,Critical Care Medicine,98765432751,"Pune, Maharashtra",Model Colony,2
+752,Deepika Verma,PhD ,Diagnostic Radiology,98765432752,"Pune, Maharashtra",Deccan Gymkhana,5
+753,Akshay Kumar,DO ,Otolaryngologist,98765432753,"Pune, Maharashtra",Swargate,5
+754,Aarav Agarwal,DO ,Orthopedic Surgery,98765432754,"Pune, Maharashtra",Katraj,3
+755,Aarav Agarwal,DC ,ENT/general physician,98765432755,"Pune, Maharashtra",Katraj,4
+756,Abhinav Chauhan,MD-PhD,Anesthesiology,98765432756,"Pune, Maharashtra",Warje,5
+757,Deepika Verma,JD ,Plastic Surgery,98765432757,"Pune, Maharashtra",Model Colony,1
+758,Chetan Singh,EdD ,Nephrology,98765432758,"Pune, Maharashtra",Model Colony,2
+759,Arjun Patel,PsyD ,Occupational Medicine,98765432759,"Pune, Maharashtra",Lohegaon,4
+760,Akshay Kumar,EdD ,Cardiovascular/Thoracic Surgery,98765432760,"Pune, Maharashtra",Camp,1
+761,Bhavya Shah,DNP ,Plastic Surgery,98765432761,"Pune, Maharashtra",Kharadi,2
+762,Chetan Singh,DVM ,Clinical Immunology/Allergy,98765432762,"Pune, Maharashtra",Magarpatta,3
+763,Daksh Tiwari,DO ,Obstetrics/Gynecology,98765432763,"Pune, Maharashtra",Tingale Nagar,3
+764,Daksh Tiwari,MD ,Cardiovascular/Thoracic Surgery,98765432764,"Pune, Maharashtra",Tingale Nagar,5
+765,Bhavya Shah,DVM ,Clinical Immunology/Allergy,98765432765,"Pune, Maharashtra",Sahakar Nagar,1
+766,Aaradhya Bansal,DO ,Endocrinologist,98765432766,"Pune, Maharashtra",Ravet,4
+767,Advik Gupta,MD-PhD,Cardiologist,98765432767,"Pune, Maharashtra",Dhankawdi,1
+768,Deepika Verma,PharmD ,Geriatric Medicine,98765432768,"Pune, Maharashtra",Kondhwa,3
+769,Manthan pal,PharmD ,General Surgery,98765432769,"Pune, Maharashtra",Mundhwa,3
+770,Arjun Patel,MD-PhD,Proctologist ,98765432770,"Pune, Maharashtra",Bibwewadi,3
+771,Bhavya Shah,PsyD ,Hematology,98765432771,"Pune, Maharashtra",Viman Nagar,5
+772,Aditi Das,DVM ,Psychiatry,98765432772,"Pune, Maharashtra",Lohegaon,3
+773,Deepika Verma,EdD ,Medical Biochemistry,98765432773,"Pune, Maharashtra",Bund Garden,3
+774,Aisha Joshi,DPT ,General Internal Medicine,98765432774,"Pune, Maharashtra",Fatima Nagar,1
+775,Avani Rajput,BDS ,Neurologist,98765432775,"Pune, Maharashtra",Viman Nagar,3
+776,Chetan Singh,EdD ,Neurosurgery,98765432776,"Pune, Maharashtra",Mundhwa,5
+777,Chetan Singh,MBBS ,Nuclear Medicine,98765432777,"Pune, Maharashtra",Wakad Chowk,4
+778,Deepika Verma,BDS ,Neurologist,98765432778,"Pune, Maharashtra",Dhankawadi,4
+779,Bhavya Shah,MD-PhD,Neurosurgery,98765432779,"Pune, Maharashtra",Koregaon Park,4
+780,Aditi Das,MBBS ,Dermatologist,98765432780,"Pune, Maharashtra",Wakad,3
+781,Aditi Das,MD ,Orthopedic Surgery,98765432781,"Pune, Maharashtra",Baner,4
+782,Aaradhya Bansal,DPT ,ENT/general physician,98765432782,"Pune, Maharashtra",Ganeshwadi,4
+783,Bhavya Shah,EdD ,Anatomical Pathology,98765432783,"Pune, Maharashtra",Bhosari,2
+784,Advik Gupta,MD-PhD,Cardiologist,98765432784,"Pune, Maharashtra",Kalyani Nagar,3
+785,Arjun Patel,MD ,Phlebologist ,98765432785,"Pune, Maharashtra",Balewadi,4
+786,Bhavya Shah,DNP ,General Surgery,98765432786,"Pune, Maharashtra",Ganeshwadi,5
+787,Daksh Tiwari,BDS ,Obstetrics/Gynecology,98765432787,"Pune, Maharashtra",Firodiya Nagar,4
+788,Bhavya Shah,MBBS ,Geriatric Medicine,98765432788,"Pune, Maharashtra",Pimple Nilach,4
+789,Deepika Verma,MD ,Family Medicine,98765432789,"Pune, Maharashtra",Mohammadwadi,1
+790,Chetan Singh,DMD ,Geriatric Medicine,98765432790,"Pune, Maharashtra",Katraj,2
+791,Aaradhya Bansal,DPT ,Nephrology,98765432791,"Pune, Maharashtra",Fatima Nagar,1
+792,Eshaan Yadav,DVM ,Family Medicine,98765432792,"Pune, Maharashtra",Model Colony,1
+793,Ananya Mishra,DMD ,Clinical Immunology/Allergy,98765432793,"Pune, Maharashtra",Baner,2
+794,Aarav Agarwal,MBBS ,Critical Care Medicine,98765432794,"Pune, Maharashtra",Swargate,4
+795,Eshaan Yadav,PharmD ,ENT/general physician,98765432795,"Pune, Maharashtra",Viman Nagar,4
+796,Advik Gupta,MD-PhD,Geriatric Medicine,98765432796,"Pune, Maharashtra",Pimpri-Chinchwad,4
+797,Eshaan Yadav,DPT ,Orthopedic Surgery,98765432797,"Pune, Maharashtra",Bhosari,5
+798,Abhinav Chauhan,DVM ,Diagnostic Radiology,98765432798,"Pune, Maharashtra",Swargate,1
+799,Chetan Singh,PharmD ,Neurosurgery,98765432799,"Pune, Maharashtra",Katraj,4
+800,Akshay Kumar,BDS ,Family Medicine,98765432800,"Pune, Maharashtra",Baner,5
+801,Ananya Mishra,DMD ,Medical Biochemistry,98765432801,"Pune, Maharashtra",Firodiya Nagar,3
+802,Advik Gupta,PharmD ,Geriatric Medicine,98765432802,"Pune, Maharashtra",Hinjewadi,2
+803,Aisha Joshi,DMD ,Occupational Medicine,98765432803,"Pune, Maharashtra",Dhankawadi,4
+804,Aisha Joshi,DNP ,Anesthesiology,98765432804,"Pune, Maharashtra",Baner,1
+805,Abhinav Chauhan,DVM ,Phlebologist ,98765432805,"Pune, Maharashtra",Bund Garden,3
+806,Aditi Das,DMD ,Orthopedic Surgery,98765432806,"Pune, Maharashtra",Akurdi,5
+807,Aditi Das,PsyD ,Orthopedic Surgery,98765432807,"Pune, Maharashtra",Moshi,5
+808,Aarav Agarwal,BDS ,Obstetrics/Gynecology,98765432808,"Pune, Maharashtra",Deccan Gymkhana,5
+809,Aarav Agarwal,DNP ,Orthopedic Surgery,98765432809,"Pune, Maharashtra",Fatima Nagar,2
+810,Akshay Kumar,JD ,Neurologist,98765432810,"Pune, Maharashtra",Yerwada,1
+811,Akshay Kumar,PsyD ,Endocrinologist,98765432811,"Pune, Maharashtra",Theur,4
+812,Aarav Agarwal,DVM ,ENT/general physician,98765432812,"Pune, Maharashtra",Pimple Nilach,5
+813,Eshaan Yadav,PsyD ,Geriatric Medicine,98765432813,"Pune, Maharashtra",Aundh,2
+814,Advik Gupta,DPT ,Emergency Medicine,98765432814,"Pune, Maharashtra",Kondhwa,1
+815,Ananya Mishra,JD ,General Internal Medicine,98765432815,"Pune, Maharashtra",Bavdhan,1
+816,Bhavya Shah,PharmD ,Occupational Medicine,98765432816,"Pune, Maharashtra",Kondhwa,1
+817,Aaradhya Bansal,DO ,Pulmonologist,98765432817,"Pune, Maharashtra",Kondhwa,2
+818,Aisha Joshi,PsyD ,Family Medicine,98765432818,"Pune, Maharashtra",Kondhwa,2
+819,Advik Gupta,DO ,Anatomical Pathology,98765432819,"Pune, Maharashtra",Pimpri-Chinchwad,4
+820,Abhinav Chauhan,MD ,Otolaryngologist,98765432820,"Pune, Maharashtra",Nigdi,2
+821,Ananya Mishra,DPT ,Nephrology,98765432821,"Pune, Maharashtra",Dhankawadi,3
+822,Chetan Singh,DO ,Radiation Oncology,98765432822,"Pune, Maharashtra",Kalyani Nagar,1
+823,Manthan pal,DVM ,Pulmonologist,98765432823,"Pune, Maharashtra",Warje,3
+824,Aditi Das,BDS ,Medical Oncology,98765432824,"Pune, Maharashtra",Bhosari,3
+825,Chetan Singh,EdD ,Hematology,98765432825,"Pune, Maharashtra",Ravet,3
+826,Avani Rajput,JD ,Pulmonologist,98765432826,"Pune, Maharashtra",Warje,3
+827,Aditi Das,MBBS ,Nephrology,98765432827,"Pune, Maharashtra",Baner,5
+828,Avani Rajput,DC ,Dermatologist,98765432828,"Pune, Maharashtra",Ravet,5
+829,Ananya Mishra,DO ,Diagnostic Radiology,98765432829,"Pune, Maharashtra",Sahakar Nagar,3
+830,Deepika Verma,BDS ,Anesthesiology,98765432830,"Pune, Maharashtra",Model Colony,3
+831,Abhinav Chauhan,PhD ,Nuclear Medicine,98765432831,"Pune, Maharashtra",Aundh Road,3
+832,Abhinav Chauhan,DC ,General Internal Medicine,98765432832,"Pune, Maharashtra",Sahakar Nagar,1
+833,Akshay Kumar,DMD ,Respirology,98765432833,"Pune, Maharashtra",Bavdhan,1
+834,Chetan Singh,DC ,Rheumatologist,98765432834,"Pune, Maharashtra",Ganeshwadi,5
+835,Deepika Verma,BDS ,Pulmonologist,98765432835,"Pune, Maharashtra",Pimple Nilach,5
+836,Advik Gupta,DO ,Endocrinologist,98765432836,"Pune, Maharashtra",Magarpatta,1
+837,Ananya Mishra,DPT ,Psychiatry,98765432837,"Pune, Maharashtra",Ravet,3
+838,Akshay Kumar,EdD ,Ophthalmology,98765432838,"Pune, Maharashtra",Pimple Gaurav,5
+839,Aisha Joshi,PsyD ,Clinical Immunology/Allergy,98765432839,"Pune, Maharashtra",Bavdhan,2
+840,Aisha Joshi,PharmD ,Pulmonologist,98765432840,"Pune, Maharashtra",Hadapsar,2
+841,Aditi Das,EdD ,Anesthesiology,98765432841,"Pune, Maharashtra",Bund Garden,1
+842,Arjun Patel,PharmD ,ENT/general physician,98765432842,"Pune, Maharashtra",Shivaji Nagar,3
+843,Avani Rajput,DC ,Phlebologist ,98765432843,"Pune, Maharashtra",Shivaji Nagar,4
+844,Aisha Joshi,PharmD ,Medical Biochemistry,98765432844,"Pune, Maharashtra",Aundh,1
+845,Aaradhya Bansal,DMD ,General Surgery,98765432845,"Pune, Maharashtra",Swargate,5
+846,Aditi Das,DPT ,Pulmonologist,98765432846,"Pune, Maharashtra",Firodiya Nagar,3
+847,Manthan pal,MBBS ,Orthopedic Surgery,98765432847,"Pune, Maharashtra",Tingale Nagar,4
+848,Bhavya Shah,DPT ,Critical Care Medicine,98765432848,"Pune, Maharashtra",Lohegaon,3
+849,Om Bharare,MBBS ,Respirology,98765432849,"Pune, Maharashtra",Kondhwa Khurd,1
+850,Deepika Verma,BDS ,Hematology,98765432850,"Pune, Maharashtra",Hadapsar,1
+851,Avani Rajput,JD ,Cardiologist,98765432851,"Pune, Maharashtra",Model Colony,2
+852,Aarav Agarwal,JD ,Anatomical Pathology,98765432852,"Pune, Maharashtra",Pimple Nilach,3
+853,Abhinav Chauhan,DVM ,Gastroenterologist,98765432853,"Pune, Maharashtra",Koregaon Park,2
+854,Abhinav Chauhan,DO ,Radiation Oncology,98765432854,"Pune, Maharashtra",Wakad,2
+855,Deepika Verma,JD ,Critical Care Medicine,98765432855,"Pune, Maharashtra",Pimpri-Chinchwad,4
+856,Bhavya Shah,DPT ,Medical Oncology,98765432856,"Pune, Maharashtra",Mohammadwadi,2
+857,Eshaan Yadav,EdD ,General Surgery,98765432857,"Pune, Maharashtra",Pimple Nilach,3
+858,Aarav Agarwal,MD-PhD,Phlebologist ,98765432858,"Pune, Maharashtra",Kothrud,2
+859,Bhavya Shah,MD-PhD,Neurologist,98765432859,"Pune, Maharashtra",Mundhwa,2
+860,Daksh Tiwari,DC ,Diagnostic Radiology,98765432860,"Pune, Maharashtra",Kalyani Nagar,2
+861,Aditi Das,MBBS ,Dermatologist,98765432861,"Pune, Maharashtra",Wakad,1
+862,Aditi Das,DC ,Phlebologist ,98765432862,"Pune, Maharashtra",Bavdhan,2
+863,Aditi Das,MBBS ,Endocrinologist,98765432863,"Pune, Maharashtra",Mohammadwadi,3
+864,Daksh Tiwari,PsyD ,Obstetrics/Gynecology,98765432864,"Pune, Maharashtra",Moshi,5
+865,Aditi Das,DO ,Occupational Medicine,98765432865,"Pune, Maharashtra",Firodiya Nagar,3
+866,Avani Rajput,BDS ,Respirology,98765432866,"Pune, Maharashtra",Dhayari,2
+867,Bhavya Shah,DO ,Rheumatologist,98765432867,"Pune, Maharashtra",Yerwada,2
+868,Advik Gupta,DMD ,Obstetrics/Gynecology,98765432868,"Pune, Maharashtra",Nigdi,3
+869,Deepika Verma,DVM ,General Surgery,98765432869,"Pune, Maharashtra",Viman Nagar,2
+870,Ananya Mishra,JD ,Critical Care Medicine,98765432870,"Pune, Maharashtra",Dhankawadi,1
+871,Aarav Agarwal,BDS ,Gastroenterologist,98765432871,"Pune, Maharashtra",Hadapsar,4
+872,Aaradhya Bansal,DNP ,General Surgery,98765432872,"Pune, Maharashtra",Dhankawdi,2
+873,Aarav Agarwal,JD ,Cardiologist,98765432873,"Pune, Maharashtra",Shivaji Nagar,4
+874,Avani Rajput,DC ,Nuclear Medicine,98765432874,"Pune, Maharashtra",Dhankawdi,4
+875,Aaradhya Bansal,DO ,Medical Genetics,98765432875,"Pune, Maharashtra",Pimpri-Chinchwad,1
+876,Bhavya Shah,EdD ,Medical Biochemistry,98765432876,"Pune, Maharashtra",Shivaji Nagar,5
+877,Akshay Kumar,PsyD ,Psychiatry,98765432877,"Pune, Maharashtra",Dhanori,5
+878,Advik Gupta,DC ,Otolaryngologist,98765432878,"Pune, Maharashtra",NIBM (Nanded City),3
+879,Eshaan Yadav,MBBS ,Endocrinologist,98765432879,"Pune, Maharashtra",Bavdhan,5
+880,Deepika Verma,PhD ,Ophthalmology,98765432880,"Pune, Maharashtra",NIBM (Nanded City),2
+881,Abhinav Chauhan,DNP ,Dermatologist,98765432881,"Pune, Maharashtra",Model Colony,2
+882,Chetan Singh,MD-PhD,Hematology,98765432882,"Pune, Maharashtra",NIBM (Nanded City),5
+883,Aarav Agarwal,DNP ,Ophthalmology,98765432883,"Pune, Maharashtra",Hadapsar,2
+884,Daksh Tiwari,DVM ,Diagnostic Radiology,98765432884,"Pune, Maharashtra",Nigdi,1
+885,Advik Gupta,DVM ,Geriatric Medicine,98765432885,"Pune, Maharashtra",Wakad,2
+886,Ananya Mishra,MD-PhD,Endocrinologist,98765432886,"Pune, Maharashtra",Warje,5
+887,Aditi Das,DC ,Neurologist,98765432887,"Pune, Maharashtra",Shivaji Nagar,5
+888,Aarav Agarwal,DMD ,Orthopedic Surgery,98765432888,"Pune, Maharashtra",Warje,1
+889,Chetan Singh,DMD ,Endocrinologist,98765432889,"Pune, Maharashtra",Pimple Nilach,4
+890,Aisha Joshi,DNP ,General Internal Medicine,98765432890,"Pune, Maharashtra",Aundh Road,2
+891,Aaradhya Bansal,PharmD ,Neurosurgery,98765432891,"Pune, Maharashtra",Ravet,2
+892,Abhinav Chauhan,DO ,Hematology,98765432892,"Pune, Maharashtra",Lohegaon,5
+893,Abhinav Chauhan,DC ,Pulmonologist,98765432893,"Pune, Maharashtra",Akurdi,1
+894,Deepika Verma,MD ,Orthopedic Surgery,98765432894,"Pune, Maharashtra",Aundh,3
+895,Abhinav Chauhan,PhD ,Nuclear Medicine,98765432895,"Pune, Maharashtra",Bibwewadi,3
+896,Ananya Mishra,EdD ,Nephrology,98765432896,"Pune, Maharashtra",Magarpatta,5
+897,Arjun Patel,DNP ,Dermatologist,98765432897,"Pune, Maharashtra",Wakad,5
+898,Abhinav Chauhan,PsyD ,Nephrology,98765432898,"Pune, Maharashtra",Dhankawadi,1
+899,Bhavya Shah,DMD ,Ophthalmology,98765432899,"Pune, Maharashtra",Mohammadwadi,5
+900,Akshay Kumar,DO ,Nephrology,98765432900,"Pune, Maharashtra",Warje,2
+901,Aditi Das,EdD ,Neurologist,98765432901,"Pune, Maharashtra",Camp,1
+902,Aaradhya Bansal,PsyD ,Emergency Medicine,98765432902,"Pune, Maharashtra",Aundh Road,2
+903,Akshay Kumar,JD ,Medical Genetics,98765432903,"Pune, Maharashtra",Baner,5
+904,Daksh Tiwari,BDS ,Cardiovascular/Thoracic Surgery,98765432904,"Pune, Maharashtra",Bhosari,2
+905,Aaradhya Bansal,MD ,Critical Care Medicine,98765432905,"Pune, Maharashtra",Magarpatta,1
+906,Daksh Tiwari,DC ,Geriatric Medicine,98765432906,"Pune, Maharashtra",Bund Garden,1
+907,Arjun Patel,DVM ,Family Medicine,98765432907,"Pune, Maharashtra",Aundh Road,4
+908,Advik Gupta,JD ,Ophthalmology,98765432908,"Pune, Maharashtra",Bibwewadi,1
+909,Advik Gupta,EdD ,ENT/general physician,98765432909,"Pune, Maharashtra",Kothrud,3
+910,Aaradhya Bansal,DMD ,Neurosurgery,98765432910,"Pune, Maharashtra",Ganeshwadi,2
+911,Aaradhya Bansal,DC ,Pediatrics,98765432911,"Pune, Maharashtra",Kondhwa Khurd,1
+912,Aisha Joshi,EdD ,Medical Oncology,98765432912,"Pune, Maharashtra",Aundh Road,4
+913,Akshay Kumar,DPT ,Medical Genetics,98765432913,"Pune, Maharashtra",Koregaon Park,2
+914,Avani Rajput,PsyD ,Gastroenterologist,98765432914,"Pune, Maharashtra",Mohammadwadi,4
+915,Bhavya Shah,PhD ,Anatomical Pathology,98765432915,"Pune, Maharashtra",Theur,4
+916,Bhavya Shah,MD ,Neurosurgery,98765432916,"Pune, Maharashtra",Baner,3
+917,Akshay Kumar,MD-PhD,Emergency Medicine,98765432917,"Pune, Maharashtra",Katraj,3
+918,Avani Rajput,MD ,ENT/general physician,98765432918,"Pune, Maharashtra",Dhayari,5
+919,Akshay Kumar,DNP ,Nuclear Medicine,98765432919,"Pune, Maharashtra",Tingale Nagar,3
+920,Eshaan Yadav,DNP ,Medical Oncology,98765432920,"Pune, Maharashtra",Pimple Nilach,5
+921,Ananya Mishra,DVM ,Dermatologist,98765432921,"Pune, Maharashtra",Kharadi,1
+922,Daksh Tiwari,PharmD ,ENT/general physician,98765432922,"Pune, Maharashtra",Model Colony,4
+923,Aarav Agarwal,DMD ,Cardiovascular/Thoracic Surgery,98765432923,"Pune, Maharashtra",Kharadi,4
+924,Aaradhya Bansal,DPT ,Nuclear Medicine,98765432924,"Pune, Maharashtra",Dhayari,4
+925,Bhavya Shah,PharmD ,Pediatrics,98765432925,"Pune, Maharashtra",Dhayari,3
+926,Aditi Das,DC ,Medical Biochemistry,98765432926,"Pune, Maharashtra",Aundh Road,1
+927,Avani Rajput,JD ,Nephrology,98765432927,"Pune, Maharashtra",Moshi,1
+928,Ananya Mishra,DNP ,Medical Genetics,98765432928,"Pune, Maharashtra",Sahakar Nagar,2
+929,Akshay Kumar,DO ,Pulmonologist,98765432929,"Pune, Maharashtra",Wakad,1
+930,Aarav Agarwal,DC ,Ophthalmology,98765432930,"Pune, Maharashtra",Swargate,1
+931,Advik Gupta,DNP ,Anatomical Pathology,98765432931,"Pune, Maharashtra",Camp,1
+932,Deepika Verma,EdD ,Anesthesiology,98765432932,"Pune, Maharashtra",Swargate,2
+933,Aditi Das,PsyD ,Pulmonologist,98765432933,"Pune, Maharashtra",Lohegaon,2
+934,Daksh Tiwari,DC ,Diagnostic Radiology,98765432934,"Pune, Maharashtra",Nigdi,3
+935,Advik Gupta,MBBS ,General Surgery,98765432935,"Pune, Maharashtra",Akurdi,3
+936,Akshay Kumar,BDS ,Obstetrics/Gynecology,98765432936,"Pune, Maharashtra",Theur,3
+937,Chetan Singh,PsyD ,Respirology,98765432937,"Pune, Maharashtra",Sahakar Nagar,2
+938,Avani Rajput,DMD ,Pediatrics,98765432938,"Pune, Maharashtra",Aundh,4
+939,Aarav Agarwal,DPT ,Radiation Oncology,98765432939,"Pune, Maharashtra",Warje,1
+940,Abhinav Chauhan,DMD ,Emergency Medicine,98765432940,"Pune, Maharashtra",Fatima Nagar,2
+941,Om Bharare,EdD ,Medical Genetics,98765432941,"Pune, Maharashtra",Hadapsar,1
+942,Ananya Mishra,BDS ,General Surgery,98765432942,"Pune, Maharashtra",Kondhwa,4
+943,Aaradhya Bansal,MD-PhD,Respirology,98765432943,"Pune, Maharashtra",Swargate,5
+944,Ananya Mishra,MD-PhD,Diagnostic Radiology,98765432944,"Pune, Maharashtra",Nigdi,1
+945,Advik Gupta,MD-PhD,ENT/general physician,98765432945,"Pune, Maharashtra",Baner,3
+946,Abhinav Chauhan,PhD ,Orthopedic Surgery,98765432946,"Pune, Maharashtra",Camp,3
+947,Bhavya Shah,PsyD ,Radiation Oncology,98765432947,"Pune, Maharashtra",Fatima Nagar,2
+948,Eshaan Yadav,DVM ,Endocrinologist,98765432948,"Pune, Maharashtra",Kalyani Nagar,5
+949,Eshaan Yadav,PharmD ,Psychiatry,98765432949,"Pune, Maharashtra",Sahakar Nagar,5
+950,Daksh Tiwari,JD ,Otolaryngologist,98765432950,"Pune, Maharashtra",Pimple Gaurav,4
+951,Aditi Das,PhD ,Geriatric Medicine,98765432951,"Pune, Maharashtra",Kondhwa,5
+952,Deepika Verma,MD-PhD,Anatomical Pathology,98765432952,"Pune, Maharashtra",Kharadi,5
+953,Advik Gupta,PharmD ,Otolaryngologist,98765432953,"Pune, Maharashtra",Akurdi,5
+954,Aditi Das,MD-PhD,Occupational Medicine,98765432954,"Pune, Maharashtra",Katraj,3
+955,Abhinav Chauhan,DMD ,Cardiovascular/Thoracic Surgery,98765432955,"Pune, Maharashtra",Moshi,5
+956,Om Bharare,JD ,Geriatric Medicine,98765432956,"Pune, Maharashtra",Pimpri-Chinchwad,1
+957,Eshaan Yadav,MD ,Phlebologist ,98765432957,"Pune, Maharashtra",Camp,5
+958,Ananya Mishra,DC ,Rheumatologist,98765432958,"Pune, Maharashtra",Hadapsar,4
+959,Jaishree meshram,PsyD ,Radiation Oncology,98765432959,"Pune, Maharashtra",Warje,4
+960,Aditi Das,DO ,General Surgery,98765432960,"Pune, Maharashtra",Baner,4
+961,Advik Gupta,DO ,Medical Biochemistry,98765432961,"Pune, Maharashtra",Bavdhan,5
+962,Aditi Das,DMD ,Gastroenterologist,98765432962,"Pune, Maharashtra",Mundhwa,3
+963,Chetan Singh,MD ,Orthopedic Surgery,98765432963,"Pune, Maharashtra",Kalyani Nagar,2
+964,Arjun Patel,DNP ,Respirology,98765432964,"Pune, Maharashtra",Koregaon Park,3
+965,Aaradhya Bansal,DO ,Neurosurgery,98765432965,"Pune, Maharashtra",Lohegaon,1
+966,Bhavya Shah,DNP ,Geriatric Medicine,98765432966,"Pune, Maharashtra",Koregaon Park,5
+967,Chetan Singh,BDS ,Plastic Surgery,98765432967,"Pune, Maharashtra",Wakad Chowk,3
+968,Aditi Das,PhD ,Medical Genetics,98765432968,"Pune, Maharashtra",Aundh Road,4
+969,Avani Rajput,DNP ,Medical Microbiology and Infectious Diseases,98765432969,"Pune, Maharashtra",Fatima Nagar,3
+970,Aaradhya Bansal,DO ,Clinical Immunology/Allergy,98765432970,"Pune, Maharashtra",Kondhwa,2
+971,Chetan Singh,PsyD ,Clinical Immunology/Allergy,98765432971,"Pune, Maharashtra",Hadapsar,1
+972,Arjun Patel,EdD ,Nuclear Medicine,98765432972,"Pune, Maharashtra",Bund Garden,4
+973,Deepika Verma,DC ,Phlebologist ,98765432973,"Pune, Maharashtra",Balewadi,4
+974,Bhavya Shah,PhD ,Emergency Medicine,98765432974,"Pune, Maharashtra",Aundh,5
+975,Bhavya Shah,PsyD ,Family Medicine,98765432975,"Pune, Maharashtra",Kalyani Nagar,3
+976,Daksh Tiwari,DO ,General Surgery,98765432976,"Pune, Maharashtra",Wakad,4
+977,Bhavya Shah,JD ,Family Medicine,98765432977,"Pune, Maharashtra",Wakad,4
+978,Eshaan Yadav,MD-PhD,ENT/general physician,98765432978,"Pune, Maharashtra",Pimpri-Chinchwad,2
+979,Eshaan Yadav,PsyD ,Plastic Surgery,98765432979,"Pune, Maharashtra",Pimple Gaurav,1
+980,Jaishree meshram,MD-PhD,Cardiovascular/Thoracic Surgery,98765432980,"Pune, Maharashtra",Balewadi,4
+981,Eshaan Yadav,DVM ,Neurologist,98765432981,"Pune, Maharashtra",Baner,4
+982,Ananya Mishra,MBBS ,ENT/general physician,98765432982,"Pune, Maharashtra",Kalyani Nagar,5
+983,Avani Rajput,PharmD ,General Surgery,98765432983,"Pune, Maharashtra",Lohegaon,3
+984,Akshay Kumar,JD ,Endocrinologist,98765432984,"Pune, Maharashtra",Akurdi,1
+985,Bhavya Shah,DPT ,General Surgery,98765432985,"Pune, Maharashtra",Ravet,3
+986,Jaishree meshram,MD ,Nuclear Medicine,98765432986,"Pune, Maharashtra",Kharadi,4
+987,Akshay Kumar,PsyD ,General Internal Medicine,98765432987,"Pune, Maharashtra",Pimple Gaurav,2
+988,Avani Rajput,BDS ,ENT/general physician,98765432988,"Pune, Maharashtra",NIBM (Nanded City),3
+989,Aditi Das,PharmD ,Neurosurgery,98765432989,"Pune, Maharashtra",Nigdi,3
+990,Aarav Agarwal,DNP ,Cardiovascular/Thoracic Surgery,98765432990,"Pune, Maharashtra",Dhankawadi,2
+991,Aditi Das,PhD ,Medical Biochemistry,98765432991,"Pune, Maharashtra",Model Colony,5
+992,Eshaan Yadav,PsyD ,Medical Microbiology and Infectious Diseases,98765432992,"Pune, Maharashtra",Yerwada,3
+993,Avani Rajput,PsyD ,Gastroenterologist,98765432993,"Pune, Maharashtra",Aundh Road,1
+994,Abhinav Chauhan,DVM ,Dermatologist,98765432994,"Pune, Maharashtra",Deccan Gymkhana,3
+995,Arjun Patel,DC ,General Internal Medicine,98765432995,"Pune, Maharashtra",Bhosari,5
+996,Akshay Kumar,PharmD ,Ophthalmology,98765432996,"Pune, Maharashtra",Shivaji Nagar,4
+997,Bhavya Shah,DMD ,Dermatologist,98765432997,"Pune, Maharashtra",Warje,2
+998,Arjun Patel,EdD ,Cardiologist,98765432998,"Pune, Maharashtra",Aundh Road,1
+999,Daksh Tiwari,MBBS ,Neurologist,98765432999,"Pune, Maharashtra",Dhankawadi,1
+1000,Bhavya Shah,DNP ,Otolaryngologist,9.88E+11,"Pune, Maharashtra",Katraj,4

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>Book Appointment</title>
+    <style>
+      /* General form styling */
+#appointment-form {
+    background-color: #97E7E1; /* Light turquoise background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow for better visual */
+}
+
+/* Style for form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333; /* Darker color for better readability */
+}
+
+/* Input and select styling */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7AA2E3; /* Blue border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background for inputs */
+    color: #333; /* Dark text color */
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Change border color on focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #7AA2E3;
+    outline: none; /* Remove default outline */
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #7AA2E3; /* Blue background for button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Change button background on hover */
+button[type="submit"]:hover {
+    background-color: #97E7E1; /* Lighter turquoise on hover */
+}
+      </style>
+  </head>
+  <header>
+    <nav class="section__container nav__container">
+        <div class="nav__logo" style="width: 230px; height: 150px;">
+            <img class="p_logo" src="{% static 'logo.png' %}" alt="HealthCare Logo">
+        </div>
+        <ul class="nav__links">
+            <li class="link"><a href="/">Home</a></li>
+            <li class="link"><a href="/about_us">About Us</a></li>
+            <li class="link"><a href="/services">Services</a></li>
+            <li class="link"><a href="/emergency">Emergency</a></li>
+            <li class="link"><a href="/patient_registration">Patient Registration</a></li>
+            <li class="link"><a href="/doctor_registration">Doctor Registration</a></li>
+            <li class="link"><a href="/login">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<h1 style="color: #333;">Book Appointment</h1>
+<form id="appointment-form" method="POST" action="{% url 'book_appointment' %}">
+  {% csrf_token %}
+  {% comment %} {{ form.as_p }} {% endcomment %}
+  <div class="form-group">
+      <label for="fullname" style="font-weight: bold;">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+  </div>
+  <div class="form-group">
+      <label for="email" style="font-weight: bold;">Email:</label>
+      <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+  </div>
+  <div class="form-group">
+      <label for="phone" style="font-weight: bold;">Phone Number:</label>
+      <input type="text" id="phone" name="phone" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+  </div>
+  <div class="form-group">
+    <label for="locality" style="font-weight: bold;">Locality:</label>
+    <select id="locality" name="locality" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+        <option value="">Select a locality</option>
+        <option value="Akurdi">Akurdi</option>
+        <option value="Aundh">Aundh</option>
+        <option value="Aundh Road">Aundh Road</option>
+        <option value="Balewadi">Balewadi</option>
+        <option value="Baner">Baner</option>
+        <option value="Bavdhan">Bavdhan</option>
+        <option value="Bhosari">Bhosari</option>
+        <option value="Bibwewadi">Bibwewadi</option>
+        <option value="Bund Garden">Bund Garden</option>
+        <option value="Camp">Camp</option>
+        <option value="Deccan Gymkhana">Deccan Gymkhana</option>
+        <option value="Dhankawadi">Dhankawadi</option>
+        <option value="Dhankawdi">Dhankawdi</option>
+        <option value="Dhanori">Dhanori</option>
+        <option value="Dhayari">Dhayari</option>
+        <option value="Fatima Nagar">Fatima Nagar</option>
+        <option value="Firodiya Nagar">Firodiya Nagar</option>
+        <option value="Ganeshwadi">Ganeshwadi</option>
+        <option value="Hadapsar">Hadapsar</option>
+        <option value="Hinjewadi">Hinjewadi</option>
+        <option value="Kalyani Nagar">Kalyani Nagar</option>
+        <option value="Katraj">Katraj</option>
+        <option value="Kharadi">Kharadi</option>
+        <option value="Kondhwa">Kondhwa</option>
+        <option value="Kondhwa Khurd">Kondhwa Khurd</option>
+        <option value="Koregaon Park">Koregaon Park</option>
+        <option value="Kothrud">Kothrud</option>
+        <option value="Lohegaon">Lohegaon</option>
+        <option value="Magarpatta">Magarpatta</option>
+        <option value="Model Colony">Model Colony</option>
+        <option value="Mohammadwadi">Mohammadwadi</option>
+        <option value="Moshi">Moshi</option>
+        <option value="Mundhwa">Mundhwa</option>
+        <option value="NIBM (Nanded City)">NIBM (Nanded City)</option>
+        <option value="Nigdi">Nigdi</option>
+        <option value="Pimple Gaurav">Pimple Gaurav</option>
+        <option value="Pimple Nilach">Pimple Nilach</option>
+        <option value="Pimpri-Chinchwad">Pimpri-Chinchwad</option>
+        <option value="Pune Satara Road">Pune Satara Road</option>
+        <option value="Ravet">Ravet</option>
+        <option value="Sahakar Nagar">Sahakar Nagar</option>
+        <option value="Shivaji Nagar">Shivaji Nagar</option>
+        <option value="Swargate">Swargate</option>
+        <option value="Theur">Theur</option>
+        <option value="Tingale Nagar">Tingale Nagar</option>
+        <option value="Viman Nagar">Viman Nagar</option>
+        <option value="Wakad">Wakad</option>
+        <option value="Wakad Chowk">Wakad Chowk</option>
+        <option value="Warje">Warje</option>
+        <option value="Yerwada">Yerwada</option>
+    </select>
+</div>
+
+  <div class="form-group">
+      <label for="disease" style="font-weight: bold;">Select your disease:</label>
+      <select id="disease" name="disease" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+          <option value="">Select Disease</option>
+          <option value="Fungal infection">Fungal infection</option>
+          <option value="Allergy">Allergy</option>
+          <option value="GERD">GERD</option>
+          <option value="Chronic cholestasis">Chronic cholestasis</option>
+          <option value="Drug Reaction">Drug Reaction</option>
+          <option value="Peptic ulcer disease">Peptic ulcer disease</option>
+          <option value="AIDS">AIDS</option>
+          <option value="Diabetes">Diabetes</option>
+          <option value="Gastroenteritis">Gastroenteritis</option>
+          <option value="Bronchial Asthma">Bronchial Asthma</option>
+          <option value="Hypertension">Hypertension</option>
+          <option value="Migraine">Migraine</option>
+          <option value="Cervical spondylosis">Cervical spondylosis</option>
+          <option value="Paralysis (brain hemorrhage)">Paralysis (brain hemorrhage)</option>
+          <option value="Jaundice">Jaundice</option>
+          <option value="Malaria">Malaria</option>
+          <option value="Chicken pox">Chicken pox</option>
+          <option value="Dengue">Dengue</option>
+          <option value="Typhoid">Typhoid</option>
+          <option value="hepatitis A">hepatitis A</option>
+          <option value="Hepatitis B">Hepatitis B</option>
+          <option value="Hepatitis C">Hepatitis C</option>
+          <option value="Hepatitis D">Hepatitis D</option>
+          <option value="Hepatitis E">Hepatitis E</option>
+          <option value="Alcoholic hepatitis">Alcoholic hepatitis</option>
+          <option value="Tuberculosis">Tuberculosis</option>
+          <option value="Common Cold">Common Cold</option>
+          <option value="Pneumonia">Pneumonia</option>
+          <option value="Dimorphic hemmorhoids(piles)">Dimorphic hemmorhoids(piles)</option>
+          <option value="Heart attack">Heart attack</option>
+          <option value="Varicose veins">Varicose veins</option>
+          <option value="Hypothyroidism">Hypothyroidism</option>
+          <option value="Hyperthyroidism">Hyperthyroidism</option>
+          <option value="Hypoglycemia">Hypoglycemia</option>
+          <option value="Osteoarthristis">Osteoarthristis</option>
+          <option value="Arthritis">Arthritis</option>
+          <option value="Vertigo Paroxysmal Positional Vertigo">Vertigo Paroxysmal Positional Vertigo</option>
+          <option value="Acne">Acne</option>
+          <option value="Urinary tract infection">Urinary tract infection</option>
+          <option value="Psoriasis">Psoriasis</option>
+          <option value="Impetigo">Impetigo</option>
+
+      </select>
+  </div>
+  <div class="form-group">
+      <label for="specialization" style="font-weight: bold;">Specialization:</label>
+      <select id="specialization" name="specialization" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+          <option value="">Select specialization</option>
+          <option value="Dermatologist">Dermatologist</option>
+          <option value="Gastroenterologist">Gastroenterologist</option>
+          <option value="Endocrinologist">Endocrinologist</option>
+          <option value="Pulmonologist">Pulmonologist</option>
+          <option value="Cardiologist">Cardiologist</option>
+          <option value="Neurologist">Neurologist</option>
+          <option value="ENT/general physician">ENT/general physician</option>
+          <option value="Proctologist">Proctologist</option>
+          <option value="Phlebologist">Phlebologist</option>
+          <option value="Rheumatologist">Rheumatologist</option>
+          <option value="Otolaryngologist">Otolaryngologist</option>
+      </select>
+  </div>
+  <div class="form-group">
+      <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+  </div>
+</form>
+
+{% comment %} <div class="doctors-list" id="doctorsList"></div>
+<h1>Doctor Details</h1>
+<table border="1">
+    <tr>
+        <th id="ID">ID</th>
+        <th id="Name">Name</th>
+        <th id="Qualification">Qualification</th>
+        <th id="Specialization">
+            Specialization
+            <select id="specializationFilter">
+                <option value="">Select specialization</option>
+                <option value="Dermatologist">Dermatologist</option>
+                <option value="Gastroenterologist">Gastroenterologist</option>
+                <option value="Endocrinologist">Endocrinologist</option>
+                <option value="Pulmonologist">Pulmonologist</option>
+                <option value="Cardiologist">Cardiologist</option>
+                <option value="Neurologist">Neurologist</option>
+                <option value="ENT/general physician">ENT/general physician</option>
+                <option value="Proctologist">Proctologist</option>
+                <option value="Phlebologist">Phlebologist</option>
+                <option value="Rheumatologist">Rheumatologist</option>
+                <option value="Otolaryngologist">Otolaryngologist</option>
+            </select>
+        </th>
+        <th id="Contact">Contact</th>
+        <th id="Address">Address</th>
+        <th id="Locality">Locality</th>
+        <th id="Rating" class="center">Rating</th>
+    </tr>
+    {% for doctor in doctors %}
+    <tr class="doctorRow" data-specialization="{{ doctor.Specialization | lower }}">
+        <td>{{ doctor.ID }}</td>
+        <td>{{ doctor.Name }}</td>
+        <td>{{ doctor.Qualification }}</td>
+        <td>{{ doctor.Specialization }}</td>
+        <td>{{ doctor.Contact }}</td>
+        <td>{{ doctor.Address }}</td>
+        <td>{{ doctor.Locality }}</td>
+        <td>{{ doctor.Rating }}</td>
+    </tr>
+    {% endfor %}
+</table> {% endcomment %}
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>Health<span>Care</span></h3>
+          <p>
+            We are honored to be a part of your healthcare journey and committed
+            to delivering compassionate, personalized, and top-notch care every
+            step of the way.
+          </p>
+          <p>
+            Trust us with your health, and let us work together to achieve the
+            best possible outcomes for you and your loved ones.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Work With Us</p>
+          <p>Terms & Conditions</p>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <p>Search Terms</p>
+          <p>Advance Search</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <p>
+            <i class="ri-map-pin-2-fill"></i> 123, Dhanori, Pune
+          </p>
+          <p><i class="ri-mail-fill"></i> support@care.com</p>
+          <p><i class="ri-phone-fill"></i> (+91) 34561 78999</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <div class="footer__bar__content">
+          <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+          <div class="footer__socials">
+            <span><i class="ri-instagram-line"></i></span>
+            <span><i class="ri-facebook-fill"></i></span>
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-twitter-fill"></i></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    {% comment %} for changing specialization  {% endcomment %}
+    <script>
+      var diseaseSelect = document.getElementById('disease');
+      var specializationSelect = document.getElementById('specialization');
+  
+      var diseaseSpecializationMapping = {
+        'Fungal infection': 'Dermatologist',
+        'Allergy': 'Allergist',
+        'GERD': 'Gastroenterologist',
+        'Chronic Cholestasis': 'Hepatologist',
+        'Drug Reaction': 'Dermatologist',
+        'Peptic Ulcer Disease': 'Gastroenterology',
+        'AIDS': 'Infectious Disease Specialist',
+        'Diabetes': 'Endocrinologist',
+        'Gastroenteritis': 'Gastroenterologist',
+        'Bronchial Asthma': 'Pulmonologist',
+        'Hypertension': 'Cardiologist',
+        'Migraine': 'Neurologist',
+        'Cervical spondylosis': 'Neurologist',
+        'Paralysis (brain hemorrhage)': 'Neurologist',
+        'Jaundice': 'Gastroenterologist',
+        'Malaria': 'Infectious Disease Specialist',
+        'Chicken Pox': 'Infectious Disease Specialist',
+        'Dengue': 'Infectious Disease Specialist',
+        'Typhoid': 'Infectious Disease Specialist',
+        'hepatitis A': 'Gastroenterologist',
+        'Hepatitis B': 'Gastroenterologist',
+        'Hepatitis C': 'Gastroenterologist',
+        'Hepatitis D': 'Gastroenterologist',
+        'Hepatitis E': 'Gastroenterologist',
+        'Alcoholic Hepatitis': 'Gastroenterologist',
+        'Tuberculosis': 'Gastroenterologist',
+        'Common Cold': 'ENT/general physician',
+        'Pneumonia': 'Pulmonologist',
+        'Dimorphic Hemmorhoids(Piles)': 'Proctologist',
+        'Heart Attack': 'Cardiologist',
+        'Varicose Veins': 'Phlebologist',
+        'Hypothyroidism': 'Endocrinologist',
+        'Hyperthyroidism': 'Endocrinologist',
+        'Hypoglycemia': 'Endocrinologist',
+        'Osteoarthristis': 'Rheumatologist',
+        'Arthritis': 'Rheumatologist',
+        'Vertigo Paroxysmal Positional Vertigo': 'Otolaryngologist',
+        'Acne': 'Dermatologist',
+        'Urinary tract Infection': 'Urologist',
+        'Psoriasis': 'Dermatologist',
+        'Impetigo': 'Dermatologist'
+      };
+  
+      // Function to update specialization based on selected disease
+    function updateSpecialization() {
+      var selectedDisease = diseaseSelect.value;
+      var selectedSpecialization = diseaseSpecializationMapping[selectedDisease];
+      specializationSelect.value = selectedSpecialization;
+  }
+
+      // Add event listener to disease select element
+      diseaseSelect.addEventListener('change', updateSpecialization);
+
+      // Initial call to update specialization when page loads
+      updateSpecialization();
+  </script>
+  {% comment %} <script>
+    document.getElementById('search-button').addEventListener('click', function() {
+        var specialization = document.getElementById('specialization').value;
+        if (specialization) {
+          fetch('/fetch-doctor-list/?specialization=' + specialization)
+                .then(response => response.json())
+                .then(data => {
+                    var tableHTML = '<table>';
+                    tableHTML += '<tr><th>ID</th><th>Name</th><th>Qualification</th><th>Contact</th><th>Address</th><th>Locality</th><th>Rating</th></tr>';
+                    data.forEach(doctor => {
+                        tableHTML += '<tr>';
+                        tableHTML += `<td>${doctor.ID}</td>`;
+                        tableHTML += `<td>${doctor.Name}</td>`;
+                        tableHTML += `<td>${doctor.Qualification}</td>`;
+                        tableHTML += `<td>${doctor.Contact}</td>`;
+                        tableHTML += `<td>${doctor.Address}</td>`;
+                        tableHTML += `<td>${doctor.Locality}</td>`;
+                        tableHTML += `<td>${doctor.Rating}</td>`;
+                        tableHTML += '</tr>';
+                    });
+                    tableHTML += '</table>';
+                    document.getElementById('doctors-list').innerHTML = tableHTML;
+                });
+        } else {
+            alert('Please select a specialization');
+        }
+    });
+</script>{% endcomment %}
+{% comment %} <script>
+  document.getElementById('specializationFilter').addEventListener('change', function() {
+      var specialization = this.value.toLowerCase();
+      var rows = document.querySelectorAll('.doctorRow');
+      rows.forEach(function(row) {
+          if (specialization === "" || row.dataset.specialization === specialization) {
+              row.classList.remove('hidden');
+          } else {
+              row.classList.add('hidden');
+          }
+      });
+  });
+</script>  {% endcomment %}
+</body>
+</html>

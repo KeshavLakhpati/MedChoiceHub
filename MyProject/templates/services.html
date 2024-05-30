@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>Services</title>
+    <title>Web Design Mastery | HealthCare</title>
+  </head>
+  <body>
+    <header>
+      <nav class="section__container nav__container">
+        <div class="nav__logo" style="width: 230px; height: 150px;">
+          <img class = "p_logo" src="{% static 'logo.png' %}" alt="HealthCare Logo" >
+      </div>
+        <ul class="nav__links">
+          <li class="link"><a href="/">Home</a></li>  
+          <li class="link"><a href="/about_us">About Us</a></li>
+          <li class="link"><a href="/services">Services</a></li>
+          <li class="link"><a href="/emergency">Emergency</a></li>
+          <li class="link"><a href="/patient_registration">Patient Registration</a></li>
+          <li class="link"><a href="/doctor_registration">Doctor Registration</a></li>
+          {% comment %} <li class="link"><a href="/login">Login</a></li> {% endcomment %}
+        </ul>
+      </nav>
+    </header>
+    <section class="section__container service__container">
+      <div class="service__header">
+        <div class="service__header__content">
+          <h2 class="section__header">Our Special service</h2>
+          <p>
+            Beyond simply providing medical care, our commitment lies in
+            delivering unparalleled service tailored to your unique needs.
+          </p>
+        </div>
+      </div>
+      <div class="service__grid">
+        
+        {% comment %} <a href="/diseasechecking" class="service__card">
+          <span><i class="ri-hospital-line"></i></span>
+          <div>
+            <h4>Check Disease</h4>
+            <p>Predict disease based on symptoms</p>
+    </div></a> {% endcomment %}
+        
+        <a href="/prediction" class="service__card">
+          <span><i class="ri-mental-health-line"></i></span>
+          <div>
+            <h4>Discover Disease</h4>
+          </div></a>
+        
+        <a href="/appointment" class="service__card">
+          <span><i class="ri-mental-health-line"></i></span>
+          <div>
+            <h4>Book Appointment</h4>
+          </div></a>
+        
+        {% comment %} <a href="/laboratory" class="service__card">
+          <span><i class="ri-microscope-line"></i></span>
+          <div>
+            <h4>Laboratory</h4>
+            <p>Display list of Laboratory</p>
+          </div></a> {% endcomment %}
+        
+
+        <a href="/hospitals" class="service__card">
+        <span><i class="ri-hospital-line"></i></span>
+        <div>
+          <h4>Hospitals</h4>
+        </div></a>
+
+        <a href="/doctors" class="service__card">
+        <span><i class="ri-mental-health-line"></i></span>
+        <div>
+          <h4>Doctors</h4>
+         </div></a>
+      </div>
+    </section>
+    <footer class="footer">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <h3>Health<span>Care</span></h3>
+            <p>
+              We are honored to be a part of your healthcare journey and committed
+              to delivering compassionate, personalized, and top-notch care every
+              step of the way.
+            </p>
+            <p>
+              Trust us with your health, and let us work together to achieve the
+              best possible outcomes for you and your loved ones.
+            </p>
+          </div>
+          <div class="footer__col">
+            <h4>About Us</h4>
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Work With Us</p>
+            <p>Our Blog</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="footer__col">
+            <h4>Services</h4>
+            <p>Search Terms</p>
+            <p>Advance Search</p>
+            <p>Privacy Policy</p>
+            <p>Suppliers</p>
+            <p>Our Stores</p>
+          </div>
+          <div class="footer__col">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="ri-map-pin-2-fill"></i> 123, London Bridge Street, London
+            </p>
+            <p><i class="ri-mail-fill"></i> support@care.com</p>
+            <p><i class="ri-phone-fill"></i> (+012) 3456 789</p>
+          </div>
+        </div>
+        <div class="footer__bar">
+          <div class="footer__bar__content">
+            <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+            <div class="footer__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+        </div>
+      </footer>
+</html>
+    

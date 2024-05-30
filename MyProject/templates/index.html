@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>Home</title>
+    <title>Web Design Mastery | HealthCare</title>
+  </head>
+  <body>
+    <header>
+      <nav class="section__container nav__container">
+        <div class="nav__logo" style="width: 230px; height: 150px;">
+          <img class = "p_logo" src="{% static 'logo.png' %}" alt="HealthCare Logo" >
+        </div>
+        <ul class="nav__links">
+          <li class="link"><a href="/">Home</a></li>  
+          <li class="link"><a href="/about_us">About Us</a></li>
+          <li class="link"><a href="/services">Services</a></li>
+          <li class="link"><a href="/emergency">Emergency</a></li>
+          <li class="link"><a href="/doctor_registration">Doctor Registration</a></li>
+          <li class="link"><a href="/patient_registration">Patient Registration</a></li>
+          {% comment %} <li class="link"><a href="/login">Login</a></li> {% endcomment %}
+        </ul>
+      </nav>
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1>Welcome to Your Healing Haven: Where Compassion Meets Care</h1>
+          <p>
+            Step into Your Healing Haven, where every journey begins with compassion and ends with care.
+            Explore our personalized healthcare solutions tailored to your needs, 
+            ensuring every step towards wellness is met with support and understanding.
+          </p>
+        </div>     
+      </div>
+    </header>
+
+    <section class="section__container service__container">
+      <div class="service__header">
+        <div class="service__header__content">
+          <h2 class="section__header">Our Special service</h2>
+          <p>
+            Beyond simply providing medical care, our commitment lies in
+            delivering unparalleled service tailored to your unique needs.
+          </p>
+        </div>
+      </div>
+      <div class="service__grid">
+        
+        {% comment %} <a href="/diseasechecking" class="service__card">
+          <span><i class="ri-hospital-line"></i></span>
+          <div>
+            <h4>Check Disease</h4>
+            <p>Predict disease based on symptoms</p>
+    </div></a> {% endcomment %}
+        
+        <a href="/prediction" class="service__card">
+          <span><i class="ri-mental-health-line"></i></span>
+          <div>
+            <h4>Discover Disease</h4>
+          </div></a>
+        
+        <a href="/appointment" class="service__card">
+          <span><i class="ri-mental-health-line"></i></span>
+          <div>
+            <h4>Book Appointment</h4>
+          </div></a>
+        
+        {% comment %} <a href="/laboratory" class="service__card">
+          <span><i class="ri-microscope-line"></i></span>
+          <div>
+            <h4>Laboratory</h4>
+            <p>Display list of Laboratory</p>
+          </div></a> {% endcomment %}
+        
+
+        <a href="/hospitals" class="service__card">
+        <span><i class="ri-hospital-line"></i></span>
+        <div>
+          <h4>Hospitals</h4>
+        </div></a>
+
+        <a href="/doctors" class="service__card">
+        <span><i class="ri-mental-health-line"></i></span>
+        <div>
+          <h4>Doctors</h4>
+         </div></a>
+      </div>
+    </section>
+    <section class="section__container about__container">
+      <div class="about__content">
+        <h2 class="section__header">About Us</h2>
+        <p>
+          Welcome to our healthcare website, your trusted ally in navigating the complexities of the medical world. 
+          At our platform, we understand that finding the right healthcare provider can be daunting. 
+          That's why we've developed a revolutionary system that matches patients with the perfect doctor based on their unique needs and conditions.
+
+        </p>
+        <p>
+          Our intuitive interface allows you to input your symptoms and preferences, enabling us to recommend the most suitable healthcare 
+          professionals in your area. But we don't stop there. We provide comprehensive profiles for each doctor, including their 
+          specialties, qualifications, location, and contact information, so you can make an informed decision about your care.
+
+        </p>
+        <p>
+          In times of urgency, our emergency booking feature ensures that you can swiftly secure an appointment when you need it most.
+          We believe that access to quality healthcare should be effortless and immediate, and our platform reflects that commitment.
+
+        </p>
+        <p>
+          But our mission extends beyond mere matchmaking. We're dedicated to empowering you on your health journey. 
+          Explore our wealth of educational resources, from insightful articles on common medical conditions to practical lifestyle tips for optimizing your well-being. We believe that knowledge is power, 
+          and by arming yourself with information, you can take control of your health and lead a fulfilling life.
+
+          Welcome to a new era of healthcare, where convenience, expertise, and empowerment converge to serve you better. We're here to guide you every step of the way.
+        </p>
+      </div>
+      <div class="about__image">
+        <img src="{% static 'assets/about.jpg' %}" alt="about" />
+      </div>
+    </section>
+    <section class="section__container why__container">
+      <div class="why__image">
+        <img src="{% static 'assets/choose-us.jpg' %}" alt="why choose us" />
+      </div>
+      <div class="why__content">
+        <h2 class="section__header">Why Choose Us</h2>
+        <p>
+          With a steadfast commitment to your well-being, our team of highly
+          trained healthcare professionals ensures that you receive nothing
+          short of exceptional patient experiences.
+        </p>
+        <div class="why__grid">
+          <span><i class="ri-hand-heart-line"></i></span>
+          <div>
+            <h4>Transparency</h4>
+            <p>
+              Our platform provides comprehensive information about doctors' profiles, including their specialties, locations, and 
+              contact details, instilling trust and confidence in patients seeking medical assistance.
+
+            </p>
+          </div>
+          <span><i class="ri-truck-line"></i></span>
+          <div>
+            <h4>Customization</h4>
+            <p>
+              Patients appreciate the tailored recommendations for specialized doctors who can effectively treat their particular ailments,
+              ensuring they receive the best possible care without unnecessary visits to multiple practitioners.
+            </p>
+          </div>
+          <span><i class="ri-hospital-line"></i></span>
+          <div>
+            <h4>Emergency Assistance</h4>
+            <p>
+              The ability to book emergency appointments underscores your commitment to patient care, providing peace of mind and timely access to medical help when it's most needed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    {% comment %} <section class="section__container doctors__container">
+      <div class="doctors__header">
+        <div class="doctors__header__content">
+          <h2 class="section__header">Our Special Doctors</h2>
+          <p>
+            We take pride in our exceptional team of doctors, each a specialist
+            in their respective fields.
+          </p>
+        </div>
+        <div class="doctors__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <div class="doctors__grid">
+        <div class="doctors__card">
+          <div class="doctors__card__image">
+            <img src="assets/doctor-1.jpg" alt="doctor" />
+            <div class="doctors__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+          <h4>Dr. Emily Smith</h4>
+          <p>Cardiologist</p>
+        </div>
+        <div class="doctors__card">
+          <div class="doctors__card__image">
+            <img src="assets/doctor-2.jpg" alt="doctor" />
+            <div class="doctors__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+          <h4>Dr. James Anderson</h4>
+          <p>Neurosurgeon</p>
+        </div>
+        <div class="doctors__card">
+          <div class="doctors__card__image">
+            <img src="assets/doctor-3.jpg" alt="doctor" />
+            <div class="doctors__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+          <h4>Dr. Michael Lee</h4>
+          <p>Dermatologist</p>
+        </div>
+      </div>
+    </section> {% endcomment %}
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>Health<span>Care</span></h3>
+          <p>
+            We are honored to be a part of your healthcare journey and committed
+            to delivering compassionate, personalized, and top-notch care every
+            step of the way.
+          </p>
+          <p>
+            Trust us with your health, and let us work together to achieve the
+            best possible outcomes for you and your loved ones.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Work With Us</p>
+          <p>Terms & Conditions</p>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <p>Search Terms</p>
+          <p>Advance Search</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <p>
+            <i class="ri-map-pin-2-fill"></i> 123, Dhanori, Pune
+          </p>
+          <p><i class="ri-mail-fill"></i> support@care.com</p>
+          <p><i class="ri-phone-fill"></i> (+91) 34561 78999</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <div class="footer__bar__content">
+          <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+          <div class="footer__socials">
+            <span><i class="ri-instagram-line"></i></span>
+            <span><i class="ri-facebook-fill"></i></span>
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-twitter-fill"></i></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+     
+  </body>
+</html>
